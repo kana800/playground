@@ -1,4 +1,7 @@
 # Results
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/64830745/81640391-028d8880-943c-11ea-8aad-6507fd0c4fdf.gif"></img>
+</p>
 
 # Project
 ## Bin2Dec
