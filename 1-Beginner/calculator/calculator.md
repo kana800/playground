@@ -1,4 +1,12 @@
-# Calculator
+# Progress
+**Version 1**
+<p align="center">
+  <img width="396" height="366" src="https://user-images.githubusercontent.com/64830745/81774800-1521c380-9509-11ea-93fc-a0b6df3d8a9a.gif"></img>
+</p>
+
+
+# Project
+## Calculator
 
 **Tier:** 1-Beginner
 
@@ -46,10 +54,13 @@ allows floating point numbers up to 3 places to be entered and operations to
 be carried out to the maximum number of decimal places entered for any one
 number.
 
+
 ## Useful links and resources
 
 - [Calculator (Wikipedia)](https://en.wikipedia.org/wiki/Calculator)
 - [MDN](https://developer.mozilla.org/en-US/)
+- [Entry Validation](https://stackoverflow.com/questions/4140437/interactively-validating-entry-widget-content-in-tkinter/4140988#4140988)
+- [Entry Validation](https://stackoverflow.com/questions/8959815/restricting-the-value-in-tkinter-entry-widget)
 
 ## Example projects
 
