@@ -42,6 +42,8 @@
 -   [ ] Spirals
     -   [ ] Euler Spiral
     -   [ ] Golden Spiral
+    -   [ ] Helix
+    -   [x] Archimedean spiral
 
 ## Bonus features
 
