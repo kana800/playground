@@ -2,18 +2,11 @@
 
 ### Hypocycloid
 
-<p align="center">
-  <img width="342" height="256" src="https://user-images.githubusercontent.com/64830745/82723392-28444880-9cec-11ea-95ef-0ccc3224d211.gif" title="Hypocycloid w/ k=2 "></img>
-</p>
 
 <p align="center">
   <img width="342" height="256" src="https://user-images.githubusercontent.com/64830745/82723426-6e011100-9cec-11ea-8820-bf8fbb9a4bc6.gif" title="Hypocycloid w/ k=3 "></img>
 </p>
 
-
-<p align="center">
-  <img width="342" height="256" src="https://user-images.githubusercontent.com/64830745/82723511-18793400-9ced-11ea-9fe4-e7344b5c1695.gif" title="Hypocycloid w/ k=4 "></img>
-</p>
 
 <p align="center">
   <img width="342" height="256" src="https://user-images.githubusercontent.com/64830745/82723536-3f376a80-9ced-11ea-95c4-79e879d94612.gif" title="Hypocycloid w/ k=5.3 "></img>
