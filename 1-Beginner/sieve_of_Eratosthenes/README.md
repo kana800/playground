@@ -1,4 +1,3 @@
-# Progress
 # Project
 ## Sieve of Eratosthenes
 **Tier:** 1-Beginner
