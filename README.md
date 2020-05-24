@@ -2,7 +2,7 @@
 
 ## Progress Bar
 
-1-Beginner ![30%](https://progress-bar.dev/30)
+1-Beginner ![38%](https://progress-bar.dev/38)
 
 
 ### References
