@@ -4,13 +4,13 @@
 
 - [ ] **Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
 
-- [ ] **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+- [x] **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
 - [ ] **Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
 - [ ] **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-- [ ] **Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+- [x] [**Find Cost of Tile to Cover W x H Floor**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/tiles) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
 - [ ] **Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
 
@@ -30,7 +30,7 @@
 
 - [ ] **Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
-- [ ] **Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
+- [x] **Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
 
 - [ ] **Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
 
@@ -56,3 +56,9 @@ Classic Algorithms
 - [ ] **Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
 
 - [x] [**Sieve of Eratosthenes**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/sieve_of_Eratosthenes) - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
+
+Visualizations
+-----------------
+- [x] [**Starfield Visualization**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/starfield_visualization)
+- [x] [**Mathematical Curves , Spirals and Factrals**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/curves)
+
