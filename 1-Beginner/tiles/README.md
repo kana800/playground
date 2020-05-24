@@ -1,5 +1,9 @@
 # Progress
 
+<p align="center">
+  <img width="407" height="382" src="https://user-images.githubusercontent.com/64830745/82761598-57a4a380-9e19-11ea-93a8-8ab5040e349f.png"></img>
+</p>
+
 # Tile Calculator
 
 **Tier:** 1-Beginner
@@ -10,9 +14,9 @@ PyQt5 is used as the GUI Framework
 ## User Stories
 
 -   [x] Command Line Version
--   [ ] GUI Version
--   [ ] User should be able to select different types of measurements (example: Inches, Feet, Centimeters)
--   [ ] Should Display the Total cost in a user-friendly way
+-   [x] GUI Version
+-   [x] User should be able to select different types of measurements (example: Inches, Feet, Centimeters)
+-   [x] Should Display the Total cost in a user-friendly way
 
 
 ## Useful links and resources
