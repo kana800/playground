@@ -9,7 +9,7 @@
 **Tier:** 1-Beginner
 
 Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
-PyQt5 is used as the GUI Framework
+**PyQt5 is used as the GUI Framework**
 
 ## User Stories
 
