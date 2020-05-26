@@ -37,9 +37,9 @@ Visualizations
 Text
 ---------
 
-- [x] **Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
-- [x] **Reverse a String** - Enter a string and the program will reverse it and print it out.
-- [x] **Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
-- [x] **Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
-- [x] **Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+- [x] [**Fizz Buzz**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+- [x] [**Reverse a String**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Enter a string and the program will reverse it and print it out.
+- [x] [**Count Vowels**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
+- [x] [**Check if Palindrome**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+- [x] [**Count Words in a String**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
