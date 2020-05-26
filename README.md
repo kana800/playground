@@ -2,8 +2,8 @@
 
 ## Progress Bar
 
-1-Beginner ![38%](https://progress-bar.dev/38)
-
+- 1-Beginner ![100%](https://progress-bar.dev/100)
+- 2-Intermediate ![0%](https://progress-bar.dev/0)
 
 ### References
 This repository contains my answer/projects for the questions given in the repositories listed below:
