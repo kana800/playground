@@ -5,7 +5,7 @@
 - Numbers ![0%](https://progress-bar.dev/0)
 - Classic Algorithms![0%](https://progress-bar.dev/0)
 - Classes ![0%](https://progress-bar.dev/0)
-- Text ![0%](https://progress-bar.dev/0)
+- Text ![16%](https://progress-bar.dev/16)
 
 
 
@@ -21,7 +21,7 @@ Numbers
 Classes
 ---------
 
-- [ ] **Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
+- [x] **Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
 - [ ] **Airline / Hotel Reservation System** - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
 - [ ] **Company Manager** - Create an hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager and Executive. Every one's pay is calculated differently, research a bit about it.
 After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire and raise employees. 
@@ -43,7 +43,7 @@ Classic Algorithms
 Text
 ---------
 
-- [ ] **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
+- [x] **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 - [ ] **RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
 - [ ] **Quote Tracker (market symbols etc)** - A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked. For CLI, show whether the stock has moved up or down. *Optional: If GUI, the program can show green up and red down arrows to show which direction the stock value has moved.*
 - [ ] **Guestbook / Journal** - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box. *Optional: Deploy it on Google App Engine or Heroku or any other PaaS (if possible, of course).*
