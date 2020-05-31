@@ -7,7 +7,7 @@
 
 # Text Editor
 
-**Tier:** 1-Beginner
+**Tier:** 2-Intermediate
 
 Notepad style application that can open, edit, and save text documents. Optional: Add syntax highlighting and other features.
 
@@ -18,4 +18,3 @@ Notepad style application that can open, edit, and save text documents. Optional
 -   [x] GUI Version
 -   [x] User can save or open text files
 
-## Useful links and resources
