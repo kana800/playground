@@ -5,8 +5,6 @@
 </p>
 
 
-![text_editor]()
-
 # Text Editor
 
 **Tier:** 1-Beginner
