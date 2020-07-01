@@ -1,0 +1,64 @@
+'''
+Bank Account Consist: 
+    Deposit
+    Cash Withdrawal
+'''
+
+from abc import ABC,abstractmethod
+
+class Account(ABC):
+    
+    @abstractmethod
+    def Deposit(self):
+        pass
+    
+    @abstractmethod
+    def Withdraw(self):
+        pass
+    
+    @abstractmethod
+    def Display(self):
+        pass
+
+
+class SavingAccount(Account):
+
+    def __init__(self):
+        self.balance = 0
+
+    @property 
+    def Display(self):
+        '''
+        Balance in the account (instance of the account)
+        '''
+        return self.balance
+    
+    def Deposit(self,amount):
+        '''
+        Calculates the Deposited
+        '''
+        self.balance += int(amount)
+        print(self.Display)
+
+    def Withdraw(self,amount):
+        '''
+        Withdraws the Amount 
+        '''
+        if self.balance >= amount:
+            self.balance -= amount
+            print(self.Display)
+        else:
+            print("Insufficient Funds")
+    
+class CheckingAccount(Account):
+    def __init__(self):
+        super().__init__()
+
+
+     
+        
+        
+        
+        
+        
+        
