@@ -2,9 +2,9 @@
 
 ## Progress Bar
 
-- Numbers ![0%](https://progress-bar.dev/0)
+- Numbers ![60%](https://progress-bar.dev/60)
 - Classic Algorithms![0%](https://progress-bar.dev/0)
-- Classes ![0%](https://progress-bar.dev/0)
+- Classes ![100%](https://progress-bar.dev/100)
 - Text ![16%](https://progress-bar.dev/16)
 
 
