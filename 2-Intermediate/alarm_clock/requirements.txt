@@ -1,0 +1,6 @@
+Package         Version
+--------------- -------
+pip             20.1.1
+python-dateutil 2.8.1
+setuptools      41.2.0
+six             1.15.0
