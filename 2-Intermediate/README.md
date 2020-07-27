@@ -2,7 +2,7 @@
 
 ## Progress Bar
 
-- Numbers ![60%](https://progress-bar.dev/60)
+- Numbers ![100%](https://progress-bar.dev/100)
 - Classic Algorithms![0%](https://progress-bar.dev/0)
 - Classes ![100%](https://progress-bar.dev/100)
 - Text ![16%](https://progress-bar.dev/16)
@@ -12,8 +12,8 @@
 Numbers
 ---------
 
-- [ ] **Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
-- [ ] **Alarm Clock** - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
+- [x] [**Mortgage Calculator**](https://github.com/kana800/Side-Projects/tree/master/2-Intermediate/mortgage_calculator) - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
+- [x] [**Alarm Clock**](https://github.com/kana800/Side-Projects/tree/master/2-Intermediate/alarm_clock) - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 - [x] [**Distance Between Two Cities**](https://github.com/kana800/Side-Projects/tree/master/2-Intermediate/distance_between_two_cities) - Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
 - [x] **Happy Numbers** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
 - [x] **Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
