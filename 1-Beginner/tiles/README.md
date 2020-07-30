@@ -20,3 +20,5 @@ Calculate the total cost of tile it would take to cover a floor plan of width an
 
 
 ## Useful links and resources
+
+- [Tile Calculator / Inpiration](https://www.calculator.net/tile-calculator.html)
