@@ -9,6 +9,5 @@
 
 **Tier:** 1-Beginner
 
-**NEEDS TO BE UPDATED**
-
+Converts Degrees to Radians, Kilograms to Grams
 
