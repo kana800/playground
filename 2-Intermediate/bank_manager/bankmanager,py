@@ -49,16 +49,3 @@ class SavingAccount(Account):
             print(self.Display)
         else:
             print("Insufficient Funds")
-    
-class CheckingAccount(Account):
-    def __init__(self):
-        super().__init__()
-
-
-     
-        
-        
-        
-        
-        
-        
