@@ -22,7 +22,7 @@ int BinaryToDecimal(int binary)
 
 int main()
 {
-  int x = BinaryToDecimal(11101);
+  int x = BinaryToDecimal(10000);
   printf("Binary Number is %d\n",x);
   return 0;
 }
