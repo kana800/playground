@@ -4,7 +4,6 @@
 
 - Numbers ![100%](https://progress-bar.dev/100)
 - Classic Algorithms![100%](https://progress-bar.dev/100)
-- Visualizations ![100%](https://progress-bar.dev/100)
 - Text ![100%](https://progress-bar.dev/100)
 
 Numbers
@@ -28,12 +27,6 @@ Classic Algorithms
 - [x] [**Sorting**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/sorting_algorithm_visualizer) - Implement two types of sorting algorithms: Merge sort and bubble sort.
 - [x] [**Sieve of Eratosthenes**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/sieve_of_Eratosthenes) - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
-Visualizations
------------------
-- [x] [**Starfield Visualization**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/starfield_visualization)
-- [x] [**Mathematical Curves , Spirals and Factrals**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/curves)
-- [x] [**Pendulum**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/pendulum) - Create an animation for the movement of a pendulum
-
 Text
 ---------
 
@@ -42,4 +35,3 @@ Text
 - [x] [**Count Vowels**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 - [x] [**Check if Palindrome**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 - [x] [**Count Words in a String**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
-
