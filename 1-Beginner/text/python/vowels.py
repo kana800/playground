@@ -15,4 +15,4 @@ def vowels(n):
 
 
 
-print(vowels("aeiouaaa"))
+print(vowels("the quick brown fox jumped over a fence"))
