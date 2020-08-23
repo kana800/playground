@@ -28,7 +28,7 @@ void string_reverse_m2(char *str)
 
 int main()
 {
-  char s[] = "This";
+  char s[] = "racecar";
   char p[] = "That";
   int x = sizeof(s) / sizeof(s[0]);
 
