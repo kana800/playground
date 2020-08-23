@@ -5,7 +5,7 @@
 |Language|1- Beginner| 2-Intermediate | 3-Advanced |
 |----------| ---------- | ---------- |---------- |
 |Python| ![100%](https://progress-bar.dev/100) | ![80%](https://progress-bar.dev/80)| ![0%](https://progress-bar.dev/0)|
-|C| ![64%](https://progress-bar.dev/64) | ![0%](https://progress-bar.dev/0) |![0%](https://progress-bar.dev/0)|
+|C| ![100%](https://progress-bar.dev/100) | ![0%](https://progress-bar.dev/0) |![0%](https://progress-bar.dev/0)|
 
 
 ## References
