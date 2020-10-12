@@ -1,6 +1,6 @@
 # Progress
 <p align="center">
-  <img width="460" height="300" src="/images/bin2dec.gif"></img>
+  <img width="460" height="300" src="images/bin2dec.gif"></img>
 </p>
 
 # Project
