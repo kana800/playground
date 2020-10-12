@@ -1,6 +1,6 @@
 # Progress
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/64830745/81640391-028d8880-943c-11ea-8aad-6507fd0c4fdf.gif"></img>
+  <img width="460" height="300" src="/images/bin2dec.gif"></img>
 </p>
 
 # Project
@@ -36,7 +36,8 @@ constraints:
 
 ## Useful links and resources
 
-[Binary number system](https://en.wikipedia.org/wiki/Binary_number)
+-   [Binary number system](https://en.wikipedia.org/wiki/Binary_number)
+-   [HTML Forms](https://www.w3schools.com/html/html_forms.asp)
 
 ## Example projects
 
