@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <title> Binary to Decimal </title>
   <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
 <body>
-  <header>
-    <h1>Binary to Decimal Converter</h1>
-  </header>
-  <input text="text" id="bin" name="Binary" placeholder="Enter Binary Number">
-  <button onclick=foo()>convert</button>
+  <form class="box" name="form" onsubmit='return validateForm()'>
+    <h1>CONVERTER</h1>
+    <input type="text" id="bin" name="Binary" placeholder="Enter Binary Number" maxlength="8">
+    <input type="text" id="dec" name="Decimal" disabled>
+    <input type="submit" value="convert">
+  </form>
 </body>
 </head>
 </html>
