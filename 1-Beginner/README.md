@@ -1,11 +1,5 @@
 # Project List
 
-## Progress Bar
-
-- Numbers ![100%](https://progress-bar.dev/100)
-- Classic Algorithms![100%](https://progress-bar.dev/100)
-- Text ![100%](https://progress-bar.dev/100)
-
 Numbers
 ---------
 
@@ -14,7 +8,6 @@ Numbers
 - [x] [**Next Prime Number**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/sieve_of_Eratosthenes) - Have the program find prime numbers until the user chooses to stop asking for the next one.
 - [x] [**Find Cost of Tile to Cover W x H Floor**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/tiles) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 - [x] **Change Return Program** - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
-- [x] [**Binary to Decimal and Back Converter**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/Bin2Dec-App) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 - [x] [**Calculator**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/calculator) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 - [x] [**Unit Converter (temp, currency, volume, mass and more)**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/unit_converter) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 - [x] **Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
@@ -24,7 +17,6 @@ Numbers
 Classic Algorithms
 -----------------
 
-- [x] [**Sorting**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/sorting_algorithm_visualizer) - Implement two types of sorting algorithms: Merge sort and bubble sort.
 - [x] [**Sieve of Eratosthenes**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/sieve_of_Eratosthenes) - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
 Text
@@ -35,3 +27,13 @@ Text
 - [x] [**Count Vowels**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 - [x] [**Check if Palindrome**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 - [x] [**Count Words in a String**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+
+Applications
+------------
+ 
+- [x] [**Binary to Decimal and Back Converter**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/Bin2Dec-App) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+- [ ] Christmas Lights - Simulate a string of Christmas lights
+- [ ] Cause Effect App - Click list item to display item details
+- [ ] Color Cycle - Cycle a color value through incremental changes
+- [ ] Countdown Timer - Event Countdown timer
+

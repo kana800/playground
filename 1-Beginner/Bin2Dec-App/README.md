@@ -38,6 +38,7 @@ constraints:
 
 -   [Binary number system](https://en.wikipedia.org/wiki/Binary_number)
 -   [HTML Forms](https://www.w3schools.com/html/html_forms.asp)
+-   [CSS Design Inspiration](https://www.youtube.com/watch?v=HV7DtH3J2PU)
 
 ## Example projects
 
