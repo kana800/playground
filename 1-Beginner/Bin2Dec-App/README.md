@@ -5,9 +5,13 @@
 
 
 <p align="center">
-  <img width="460" height="300" src="/images/bin2dec_html.gif"></img>
+  <img width="460" height="300" src="images/bin2dec_html.gif"></img>
 </p>
 
+
+<p align="center">
+  <img width="460" height="300" src="images/bin2dec_bash.gif"></img>
+</p>
 
 
 # Project
@@ -46,6 +50,7 @@ constraints:
 -   [Binary number system](https://en.wikipedia.org/wiki/Binary_number)
 -   [HTML Forms](https://www.w3schools.com/html/html_forms.asp)
 -   [CSS Design Inspiration](https://www.youtube.com/watch?v=HV7DtH3J2PU)
+-   [Bash 'bc' command](http://www.basicallytech.com/blog/archive/23/command-line-calculations-using-bc/#bin_dec)
 
 ## Example projects
 
