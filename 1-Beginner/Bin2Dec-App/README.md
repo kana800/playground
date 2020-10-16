@@ -3,6 +3,13 @@
   <img width="460" height="300" src="images/bin2dec.gif"></img>
 </p>
 
+
+<p align="center">
+  <img width="460" height="300" src="/images/bin2dec_html.gif"></img>
+</p>
+
+
+
 # Project
 ## Bin2Dec
 **Tier:** 1-Beginner
