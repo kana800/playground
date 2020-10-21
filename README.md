@@ -20,14 +20,11 @@ This repository contains my answer/projects for the questions/projects given in 
 **FYI**
 
 Programming Languages used:
-- Python :python:
-- C :sea:
-- JavaScript w/ CSS & HTML `<html>`
+- Python 
+- C 
+- JavaScript w/ CSS & HTML
 - Bash 
 
 StartDate: May 11th 2020
+
 EndDate: TBA :bug:
-
-**WHY?**
-
-<h3>gotta get gud</h3>
