@@ -1,0 +1,76 @@
+body{
+  background: #E3DBDB;
+}
+
+.container{
+  width: 250px;
+  height: 400px;
+  margin: 100px auto;
+  border-radius: 10px;
+  background: #4E3D42;
+  box-shadow: -5px -5px 10px 0px #6D6466,5px 5px 10px 0px #9F9F92;
+}
+
+.holder{
+  background:#4E3D42;
+  width: 200px;
+  margin: 20px auto;
+}
+
+#display{
+  border: none;
+  outline: none;
+  text-align: right;
+  margin: 30px 0px 20px 0px;
+  background: #4E3D42;
+  width: 200px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+  box-shadow: inset 0px 0px 10px 0px black;
+}
+.bt{
+ border: none; 
+ margin:0px 0px 35px 0px;
+ width: 45px;
+ height: 45px;
+ cursor: pointer;
+ outline: none;
+ font-size: 15px;
+ font-weight: bold;
+ box-shadow: inset 0px 0px 10px 0px black;
+ background: #E3DBDB;
+ display: inline-block;
+}
+
+.bt1{
+ border: none; 
+ margin:0px 0px 0px 0px;
+ width: 45px;
+ height: 45px;
+ cursor: pointer;
+ outline: none;
+ font-size: 15px;
+ font-weight: bold;
+ box-shadow: inset 0px 0px 10px 0px black;
+ background: #E3DBDB;
+ display: inline-block;
+}
+
+.clearbtn{
+ border: none; 
+ margin:0px 0px 0px 0px;
+ width: 45px;
+ height: 45px;
+ cursor: pointer;
+ outline: none;
+ font-size: 15px;
+ font-weight: bold;
+ box-shadow: inset 0px 0px 10px 0px black;
+ background: #E3DBDB;
+ display: inline-block;
+}
+
+
+

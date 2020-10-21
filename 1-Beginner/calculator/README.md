@@ -1,14 +1,21 @@
 # Progress
 
+**JS Version**
+
+
+<p align="center">
+  <img width="470" height="546" src="images/js.png"></img>
+</p>
+
 **Version 2**
 
 <p align="center">
-  <img width="381" height="207" src="https://user-images.githubusercontent.com/64830745/83936681-8dfffc80-a7e3-11ea-92f6-17b45fe3c96f.png"></img>
+  <img width="381" height="207" src="images/v1.png"></img>
 </p>
 
 **Version 1**
 <p align="center">
-  <img width="396" height="366" src="https://user-images.githubusercontent.com/64830745/81774800-1521c380-9509-11ea-93fc-a0b6df3d8a9a.gif"></img>
+  <img width="396" height="366" src="images/v2.gif"></img>
 </p>
 
 
@@ -69,8 +76,9 @@ number.
 
 - [Calculator (Wikipedia)](https://en.wikipedia.org/wiki/Calculator)
 - [MDN](https://developer.mozilla.org/en-US/)
-- [Entry Validation](https://stackoverflow.com/questions/4140437/interactively-validating-entry-widget-content-in-tkinter/4140988#4140988)
-- [Entry Validation](https://stackoverflow.com/questions/8959815/restricting-the-value-in-tkinter-entry-widget)
+- [Entry Validation #1](https://stackoverflow.com/questions/4140437/interactively-validating-entry-widget-content-in-tkinter/4140988#4140988)
+- [Entry Validation #2](https://stackoverflow.com/questions/8959815/restricting-the-value-in-tkinter-entry-widget)
+- [Bash Calculator](https://stackoverflow.com/questions/14350556/creating-a-calculator-script)
 
 ## Example projects
 
