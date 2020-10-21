@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+      <div class="holder">
+        <form name="calc" class="calc">
+          <input type="text" id="display" size="10" readonly maxlength="8">
+          <br>
+          <input class="bt" type="button"  value="7">
+          <input class="bt" type="button"  value="8">
+          <input class="bt" type="button"  value="9">
+          <input class="bt sp" type="button"  value="+">
+          <br>
+          <input class="bt" type="button"  value="4">
+          <input class="bt" type="button"  value="5">
+          <input class="bt" type="button"  value="6">
+          <input class="bt sp" type="button"  value="-">
+          <br>
+          <input class="bt" type="button"  value="1">
+          <input class="bt" type="button"  value="2">
+          <input class="bt" type="button"  value="3">
+          <input class="bt sp" type="button"value="*">
+          <br>
+          <input class="clearbtn" type="button" onclick="calc.display.clear" value="C">
+          <input class="bt1 bt" type="button" value="0">
+          <input class="bt1 " id="equal_btn" type="button" value="=">
+          <input class="bt1 bt" type="button"  value="/">
+        </form>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+</html>

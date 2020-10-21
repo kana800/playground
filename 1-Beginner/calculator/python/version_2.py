@@ -23,7 +23,7 @@ class calc_validator(qtg.QValidator):
             else:
                 state = qtg.QValidator.Acceptable
             return (state,string,index)
-        except:
+       except:
             print("Error")  
 
 
