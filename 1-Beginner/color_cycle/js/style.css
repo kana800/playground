@@ -1,0 +1,61 @@
+body{
+	background:red;
+}
+
+
+
+@keyframes movingBox {
+  0% {
+	  background:red;
+  }
+
+  25% {
+	  background:pink;
+  }
+
+  50% {
+	  background:blue;
+  }
+
+  75% {
+	  background:cyan;
+  }
+  85%{
+  	background:green;
+  }
+  100%{
+	  background:yellow;
+  }
+}
+
+.animation{
+	animation: movingBox 12s infinite;
+}
+
+.settings{
+	width:200px;
+	height:30px;
+	margin:20px auto;
+	background: red;
+}
+#startbutton{
+	margin:4px 4px 5px 4px;
+	border:none;
+	width:64x;
+	line-height:20px;
+	text-align:center;
+	vertical-align:bottom;
+	padding: 0 20px;
+	
+}
+#firstcolor{
+	margin:4px 4px 5px 4px;
+	border:none;
+	height:20px;
+	width:64x;
+	line-height:20px;
+	text-align:center;
+	vertical-align:bottom;
+	padding: 0 20px;
+}
+
