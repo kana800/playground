@@ -20,6 +20,13 @@ function app(){
   })
   }else if (checkCurrentBody()=="welcomepage"){
     addWelcomeText();
+    // adding a listener to the logout button
+    const logout = document.getElementById("logout");
+    logout.addEventListener('click',(e) => {
+      e.preventDefault();
+      console.log("this button works");
+      window.location.replace('index.html');
+    })
   }
 }
 
@@ -46,6 +53,7 @@ function get_the_api(){
 }
 
 function addWelcomeText(){
+  // function for the welcomepage
     if (checkCurrentBody() === 'welcomepage'){
         fetch('https://fourtonfish.com/hellosalut/?mode=auto')
         .then( function(response){

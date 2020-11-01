@@ -1,11 +1,11 @@
-body{
+body, #welcome_page{
   margin:0;
   padding:0;
   font-family:sans-serif;
   background:#FCFCFC;
 }
 
-.box{
+.box, #mainframe{
   width:300px;
   top:50%;
   left:50%;

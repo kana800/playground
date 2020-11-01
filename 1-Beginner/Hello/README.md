@@ -65,3 +65,16 @@ language.
 ## Example projects
 
 [Fourtonfish Hello World](https://fourtonfish.com/hellosalut/helloworld/)
+
+
+---
+
+## What I Learnt
+
+[Notes](https://github.com/kana800/notes)
+
+- A bit about AJAX
+- A little bit about how the APIs work (fetch)
+- Javascript (this & then)
+
+
