@@ -41,9 +41,9 @@ language.
         and the border color of the field(s) in error should be changed to red.
 -   [x] User can see a login acknowledgement message in the format:
         `<hello-in-native-language> <user-name> you have successfully logged in!`
--   [ ] User can click the 'Logout' button to clear the text input fields and
+-   [x] User can click the 'Logout' button to clear the text input fields and
         any previous messages.
--   [ ] User can see a new message when successfully logged out in the format:
+-   [x] User can see a new message when successfully logged out in the format:
         `Have a great day <user-name>!`
 
 ## Bonus features

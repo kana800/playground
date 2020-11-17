@@ -1,5 +1,7 @@
 # Javascript Validation With Regex
 
+
+
 **Tier:** 1-Beginner
 
 In this challenge, you'd create a javascript validation script to validate the inputs entered by a user using RegEx.
@@ -13,8 +15,8 @@ For this project, there'd be three required inputs for validation:
 
 ## User Stories
 
--   [ ] User should be notified of any invalid inputs by error messages displayed on the form.
--   [ ] The submit button on the form would never be executed until all entries are validated.
+-   [x] User should be notified of any invalid inputs by error messages displayed on the form.
+-   [x] The submit button on the form would never be executed until all entries are validated.
 
 ## Useful links and resources
 
