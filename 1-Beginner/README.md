@@ -32,8 +32,5 @@ Applications
 ------------
  
 - [x] [**Binary to Decimal and Back Converter**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/Bin2Dec-App) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
-- [ ] Christmas Lights - Simulate a string of Christmas lights
-- [ ] Cause Effect App - Click list item to display item details
-- [ ] Color Cycle - Cycle a color value through incremental changes
-- [ ] Countdown Timer - Event Countdown timer
-
+- [x] Color Cycle - Cycle a color value through incremental changes
+- [x] Countdown Timer - Event Countdown timer
