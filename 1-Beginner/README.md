@@ -1,6 +1,4 @@
-# Project List
-
-Numbers
+##### Numbers
 ---------
 
 - [x] **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
@@ -14,12 +12,12 @@ Numbers
 - [x] **Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
 - [x] [**Coin Flip Simulation**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/coin_flip_simulation) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
 
-Classic Algorithms
+##### Classic Algorithm
 -----------------
 
 - [x] [**Sieve of Eratosthenes**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/sieve_of_Eratosthenes) - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
-Text
+##### Text
 ---------
 
 - [x] [**Fizz Buzz**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
@@ -28,9 +26,9 @@ Text
 - [x] [**Check if Palindrome**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 - [x] [**Count Words in a String**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
-Applications
+##### Applications
 ------------
- 
+
 - [x] [**Binary to Decimal and Back Converter**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/Bin2Dec-App) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
-- [x] Color Cycle - Cycle a color value through incremental changes
-- [x] Countdown Timer - Event Countdown timer
+- [x] [Color Cycle](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/color_cycle) - Cycle a color value through incremental changes
+- [x] [Countdown Timer](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/countdown_timer) - Event Countdown timer
