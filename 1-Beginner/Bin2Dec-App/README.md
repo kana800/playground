@@ -1,4 +1,3 @@
-# Progress
 <p align="center">
   <img width="460" height="300" src="images/bin2dec.gif"></img>
 </p>
@@ -14,8 +13,7 @@
 </p>
 
 
-# Project
-## Bin2Dec
+## Project : Bin2Dec
 **Tier:** 1-Beginner
 
 Binary is the number system all digital computers are based on.
