@@ -3,7 +3,8 @@ This repository contains my answer/projects for the questions/projects given in 
 1. https://github.com/florinpop17/app-ideas
 2. https://github.com/karan/Projects/
 
-*CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK*
+##### *CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK*
+
 ---
 
 #### Guide
@@ -17,6 +18,8 @@ Projects that take around `1-2` days.
 
 ##### App Ideas 
 Projects that take around `5-6` days.
+
+- [Advanced]()
 
 ##### Daily Questions
 Daily coding questions and other coding questions 
