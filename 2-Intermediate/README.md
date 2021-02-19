@@ -1,15 +1,4 @@
-# Project List
-
-## Progress Bar
-
-- Numbers ![100%](https://progress-bar.dev/100)
-- Classic Algorithms![0%](https://progress-bar.dev/0)
-- Classes ![100%](https://progress-bar.dev/100)
-- Text ![100%](https://progress-bar.dev/100)
-
-
-
-Numbers
+##### Numbers
 ---------
 
 - [x] [**Mortgage Calculator**](https://github.com/kana800/Side-Projects/tree/master/2-Intermediate/mortgage_calculator) - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
@@ -18,7 +7,7 @@ Numbers
 - [x] **Happy Numbers** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
 - [x] **Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
 
-Classes
+##### Classes
 ---------
 
 - [x] [**Product Inventory Project**](https://github.com/kana800/expense_tracker) - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
@@ -32,16 +21,9 @@ After you've established an employee hierarchy, create a Company class that allo
 - [x] [**Shape Area and Perimeter Classes**](https://github.com/kana800/Side-Projects/tree/master/2-Intermediate/shapes) - Create an abstract class called Shape and then inherit from it other shapes like diamond, rectangle, circle, triangle etc. Then have each class override the area and perimeter functionality to handle each shape type.
 - [x] [**Flower Shop Ordering To Go**](https://github.com/kana800/Side-Projects/tree/master/2-Intermediate/flowershops)- Create a flower shop application which deals in flower objects and use those flower objects in a bouquet object which can then be sold. Keep track of the number of objects and when you may need to order more.
 
-Classic Algorithms
------------------
-
-- [ ] **Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
-- [ ] **Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
-
-
-Text
+##### Text
 ---------
 
-- [x] **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
+- [x] [**Text Editor**](https://github.com/kana800/Side-Projects/tree/master/2-Intermediate/text_editor)- Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 - [x] [**Vigenere / Vernam / Ceasar Ciphers**](https://github.com/kana800/Side-Projects/tree/master/2-Intermediate/Ciphers) - Functions for encrypting and decrypting data messages. Then send them to a friend.
-- [x] [**Regex Query Tool**](https://github.com/kana800/Regex-Query-Tool) - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
+- [x] [**Regex Query Tool**](https://github.com/kana800/Side-Projects/tree/master/2-Intermediate/regex_query_tool) - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
