@@ -1,21 +1,31 @@
-**HELLO!** :wave: 
-
 This repository contains my answer/projects for the questions/projects given in the repositories listed below:
+
 1. https://github.com/florinpop17/app-ideas
 2. https://github.com/karan/Projects/
 
-
-:warning: **CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK** :warning:
+:warning: *CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK*
 
 ---
-**FYI**
 
-Programming Languages used:
-- Python 
-- C 
-- JavaScript w/ CSS & HTML
-- Bash 
+#### Guide
 
-StartDate: May 11th 2020
+##### Small Project :
+Projects that take around `1 - 2` days.
 
-EndDate: Nov 21th 2020
+- [Beginner](1-Beginner)
+- [Intermediate](2-Intermediate)
+- [Advanced]()
+
+##### App Ideas 
+Projects that take around `5 - 6` days.
+
+##### Daily Questions
+Daily coding questions and other coding questions 
+
+##### Notes 
+Short Notes :books:
+
+- [Notes](Notes)
+
+---
+
