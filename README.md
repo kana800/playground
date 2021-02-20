@@ -14,12 +14,11 @@ Projects that take around `1-2` days.
 
 - [Beginner](1-Beginner)
 - [Intermediate](2-Intermediate)
-- [Advanced]()
 
 ##### App Ideas 
 Projects that take around `5-6` days.
 
-- [Advanced]()
+- [Advanced](3-Advanced)
 
 ##### Daily Questions
 Daily coding questions and other coding questions 
