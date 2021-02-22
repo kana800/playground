@@ -23,9 +23,11 @@ Projects that take around `5-6` days.
 ##### Daily Questions
 Daily coding questions and other coding questions 
 
+- [CodingProblem](CodingProblem)
+
 ##### Notes 
 Short Notes :books:
 
-- [Notes](Notes)
+- [Notes](https://github.com/kana800/selfstudy/blob/main/_notes/README.md)
 
 ---
