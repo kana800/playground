@@ -4,17 +4,30 @@ This repository contains my answer/projects for the questions/projects given in 
 2. https://github.com/karan/Projects/
 3. https://github.com/florinpop17/weekly-projects
 
-##### *CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK*
+*CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK*
 
 ---
 
-#### Table Of Content
+#### Projects 
+
+The list below contains all the projects from [florinpop17's](https://github.com/florinpop17/app-ideas) & [karan's](https://github.com/karan/Projects/) repo.
 
 - [Beginner](1-Beginner)
 - [Intermediate](2-Intermediate)
 - [Advanced](3-Advanced)
-- [CodingProblem](CodingProblem)
+
+The list below contains projects from [project based tutorial in C](https://github.com/rby90/Project-Based-Tutorials-in-C) repo.
+
+- [Project Based C](projectC)
+
+#### Misc
+
+- [CodingProblem/Exercises](CodingProblem)
 - [Notes](https://github.com/kana800/selfstudy/blob/main/_notes/README.md)
+
+
+
+
 
 ---
 
