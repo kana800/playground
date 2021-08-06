@@ -9,3 +9,4 @@
 7. [Problem #7](problem7.md)
 8. [Problem #8](problem8.md)
 9. [Problem #9](problem9.md)
+10. [Problem #10](problem10.md)
