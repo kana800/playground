@@ -20,8 +20,6 @@
 
 #### Projects from [app-ideas](https://github.com/florinpop17/app-ideas)
 
-- [x] 
-
 - [x] [**Binary to Decimal and Back Converter**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/Bin2Dec-App) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 - [x] [**Color Cycle**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/color_cycle) - Cycle a color value through incremental changes
 - [x] [**Countdown Timer**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/countdown_timer) - Event Countdown timer
