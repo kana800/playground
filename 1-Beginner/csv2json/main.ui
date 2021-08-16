@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPlainTextEdit" name="csvdata">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>231</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>insert csv data here</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="jsondata">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>231</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>insert json data here</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="convert">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>451</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>convert</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="opencsv">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>210</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>open csv</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="openjson">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>210</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>open json</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
