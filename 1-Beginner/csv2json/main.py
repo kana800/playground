@@ -7,6 +7,7 @@ import sys
 import os
 import csv
 import json
+import pandas as pd
 
 # global variables to store the 
 # filename and the filetype of the
@@ -24,10 +25,22 @@ class Widget(qtw.QWidget):
         self.ui.setupUi(self)
 
         # open file location
-        self.ui.opencsv.clicked.connect(self.openfilelocation)
+        self.ui.open.clicked.connect(self.openfilelocation)
         # save file location
-        self.ui.openjson.clicked.connect(self.openfilelocation)
         self.ui.convert.clicked.connect(self.convertData)
+        # clear all function
+        self.ui.clearall.clicked.connect(self.clearall)
+
+    def clearall(self):
+        """clear all the texts and reenables
+        both of the boxes
+        """
+        global filetype, filename
+        # clear the filetype and filename
+        filetype = ""
+        filename = ""
+        self.ui.csvdata.clear()
+        self.ui.jsondata.clear()
 
     def openfilelocation(self):
         """Open filedialog and saves it location
@@ -48,7 +61,8 @@ class Widget(qtw.QWidget):
                     for row in csvreader:
                         string += f"{','.join(row)}\n"
             except:
-                return;
+                return qtw.QMessageBox.critical(self, "Wrong File Format",
+                                                "select json or a csv file")
             self.ui.csvdata.setPlainText(string)
             self.ui.jsondata.setEnabled(False)
             return;
@@ -59,7 +73,8 @@ class Widget(qtw.QWidget):
                 with open(filename, mode='r') as f:
                     data = json.loads(f.read())
             except:
-                return;
+                return qtw.QMessageBox.critical(self, "Wrong File Format",
+                                                "select json or a csv file")
             self.ui.jsondata.setPlainText(str(data))
             self.ui.csvdata.setEnabled(False)
             return;
@@ -83,15 +98,16 @@ class Widget(qtw.QWidget):
             # reading the data from the plain text field
             if filetype:
                 try:
-                    data = {}
+                    data = []
                     with open(filename, mode='r') as f:
-                        csvreader = csv.reader(f, delimiter = ",")
+                        csvreader = csv.DictReader(f, delimiter = ",")
+                        header = csvreader.fieldnames
                         for row in csvreader:
-                            header = row
-                            data[header] = row
+                            data.extend([{header[i]: row[header[i]] for i in
+                                          range(len(header))}])
                     self.ui.jsondata.setPlainText(str(data))
-                    data = self.ui.csvdata.toPlainText()
-                except:
+                except Exception as e:
+                    print(e)
                     return qtw.QMessageBox.critical(self, "Wrong Delimeter",
                                                     "wrong delimeter use ','")
             else:
@@ -105,9 +121,29 @@ class Widget(qtw.QWidget):
                 except:
                     return qtw.QMessageBox.critical(self, "Wrong Delimeter",
                                                     "wrong delimeter use ','")
-        elif filetype == "json":
+        elif filetype == "json" or self.ui.csvdata.toPlainText() == "":
             ### convert json to csv
-            pass
+            # Didnt have time to implement a function to
+            # flat json data, used pandas instead.
+            if filetype:
+                try:
+                    # converting it to csv
+                    with open(filename, encoding='utf-8') as f:
+                        df = pd.read_json(f, orient='index')
+                except Exception as e:
+                    return qtw.QMessageBox.critical(self, "File Error",
+                                                    "Couldnt Read the File or Allocate Data")
+            else:
+                try:
+                    jsondata = self.ui.jsondata.toPlainText()
+                    df = pd.DataFrame(jsondata, orient='index')
+                except Exception as e:
+                    return qtw.QMessageBox.critical(self, "Format Error",
+                                                    "Couldnt Read the Format")
+            # converting the data
+            data = df.to_csv(index=False)
+            # setting up the text in the area
+            self.ui.csvdata.setPlainText(data)
 
 if __name__ == "__main__":
     app = qtw.QApplication(sys.argv)

@@ -24,4 +24,5 @@
 - [x] [**Color Cycle**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/color_cycle) - Cycle a color value through incremental changes
 - [x] [**Countdown Timer**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/countdown_timer) - Event Countdown timer
 - [x] [**Calculator**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/calculator) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
-- [ ] [**Dollars to Cents**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/dollars_to_cents) - Converting Dollars to Cents
+- [x] [**CSV2JSON**](csv2json) - Converts CSV file format to JSON file format
+- [x] [**Dollars to Cents**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/dollars_to_cents) - Converting Dollars to Cents
