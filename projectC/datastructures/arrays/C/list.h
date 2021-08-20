@@ -26,5 +26,11 @@ listinfo * createList(int size);
 void appendData(listinfo * templist, int data);
 // prints the list
 void printlist(listinfo * templist);
+// return size of the list
+int size(listinfo *templist);
+// return capacity of the list
+int capacity(listinfo *templist);
+// return if the list empty or not
+int is_empty(listinfo *templist);
 
 #endif // LIST_H_

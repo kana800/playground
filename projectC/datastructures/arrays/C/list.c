@@ -71,7 +71,45 @@ void allocateData(listinfo *templist, int data, int index){
 // args: listinfo pointer
 //		data - value you want to append 
 void appendData(listinfo *templist, int data){
-	// TODO: Implementation Here	
+	// increment the current capacity
+	int maxIndex = templist->maxCapacity;
+	templist->maxCapacity += 1;
+	// allocate the data to the end of the list
+	allocateData(templist, data, maxIndex);
+}
+
+
+// returns size of the list
+// args: lisinfo pointer
+int size(listinfo *templist){
+	return templist->len;
+}
+
+// returns maximum capacity of the list
+// args: listinfo pointer
+int capacity(listinfo *templist){
+	return templist->maxCapacity;
+}
+
+// returns 0 or 1, 0 if False, 1 if True
+// checks if the list is empty
+int is_empty(listinfo *templist){
+	if (templist->len == 0){
+		return 0;
+	}else{
+		return 1;
+	}
+}
+
+// returns the data at the index value
+void at(listinfo *templist, int index){
+	if (index > templist->maxCapacity - 1){
+		fprintf(stderr, "Index out of range");
+		return;
+	}else{
+		printf("index : %d - data : %d \n",index,templist->data[index]);
+		return;
+	}
 }
 
 // return nothing
@@ -82,10 +120,14 @@ void printlist(listinfo *templist){
 	for (int i = 0; i < size; i++){
 		printf("%d ", templist->data[i]);
 	}
+	printf("\n");
 	return;
 }
 
 
 int main(){
-	createList(5);
+	listinfo * list = createList(5);
+	allocateData(list,5,0);
+	allocateData(list,6,4);
+	appendData(list,7);
 }
