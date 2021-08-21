@@ -32,5 +32,17 @@ int size(listinfo *templist);
 int capacity(listinfo *templist);
 // return if the list empty or not
 int is_empty(listinfo *templist);
+// insert item at index, shifts that index's value
+// and trailing elements to the right
+void insert(listinfo *templist, int data, int index);
+// return end value from the list
+int pop(listinfo *templist);
+// delete item at the index, shift all trailing elements
+// left
+void deleteitem(listinfo *templist, int index);
+// looks for value and removes index holding it (even if in multiple places)
+void removeitem(listinfo *templist, int data);
+//looks for value and returns first index with that value, -1 if not found
+int finditem(listinfo *templist, int item);
 
 #endif // LIST_H_

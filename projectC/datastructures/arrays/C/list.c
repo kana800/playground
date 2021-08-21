@@ -54,7 +54,7 @@ listinfo * createList(int size){
 void allocateData(listinfo *templist, int data, int index){
 	// checking whether the given index is out of range
 	if (index > templist->maxCapacity - 1){
-		fprintf(stderr, "Index out of range");
+		fprintf(stderr, "Index out of range\n");
 		return;
 	}else{
 		templist->data[index] = data;
@@ -71,11 +71,20 @@ void allocateData(listinfo *templist, int data, int index){
 // args: listinfo pointer
 //		data - value you want to append 
 void appendData(listinfo *templist, int data){
-	// increment the current capacity
-	int maxIndex = templist->maxCapacity;
-	templist->maxCapacity += 1;
-	// allocate the data to the end of the list
-	allocateData(templist, data, maxIndex);
+	// check if there is space in the array
+	if (templist->len >= templist->maxCapacity){
+		// no space left
+		// increment the current capacity
+		int maxIndex = templist->maxCapacity;
+		templist->maxCapacity += 1;
+		// allocate the data to the end of the list
+		allocateData(templist, data, maxIndex);
+	}else { 
+		// increment the current capacity
+		int maxIndex = templist->len;
+		// allocate the data to the end of the list
+		allocateData(templist, data, maxIndex);
+	}
 }
 
 
@@ -104,12 +113,89 @@ int is_empty(listinfo *templist){
 // returns the data at the index value
 void at(listinfo *templist, int index){
 	if (index > templist->maxCapacity - 1){
-		fprintf(stderr, "Index out of range");
+		fprintf(stderr, "Index out of range\n");
 		return;
 	}else{
 		printf("index : %d - data : %d \n",index,templist->data[index]);
 		return;
 	}
+}
+
+// inserts item at index, shifts that index's value
+// and trailing elements to the right
+void insert(listinfo *templist, int data, int index){
+	// checking if the index is over
+	if (index > templist->maxCapacity - 1){
+		fprintf(stderr, "Index out of range\n");
+		return;
+	}else if (templist->len == templist->maxCapacity){
+		// check if there is any space left in array
+		fprintf(stderr, "Array is Full\n");
+		return;
+	} else {
+		// move everything to the right
+		for (int i = templist->len; i > 0; i--){
+			templist->data[i] = templist->data[i - 1];
+		}
+		templist->data[index] = data;
+	}
+	printlist(templist);
+}
+
+// return int
+// remove from end, return value
+int pop(listinfo *templist){
+	// obtain the final index
+	int index = templist->len - 1;
+	// replace the integer with zero
+	int temp = templist->data[index];
+	templist->data[index] = 0;
+	return temp;
+}
+
+//delete item at index, shifting all trailing elements left
+void deleteitem(listinfo *templist, int index){
+	// checking if the index is over
+	if (index > templist->maxCapacity - 1){
+		fprintf(stderr, "Index out of range\n");
+		return;
+	}else {
+		// move everything to left from the index value
+		for (int i = index; i < templist->maxCapacity - 1; i++){
+			templist->data[i] = templist->data[i + 1];
+		}
+		// allocating the last element as empty
+		allocateData(templist,0,templist->maxCapacity - 1);
+		// reducing the len
+		templist->len -= 1;
+	}
+	printlist(templist);
+}
+
+// looks for value and removes index holding it (even if in multiple places)
+void removeitem(listinfo *templist, int data){
+	// looping through the array and removing the
+	// item
+	for (int i = 0; i < templist->len; i++){
+		if (templist->data[i] == data){
+			// mark them as null
+			templist->data[i] = 0;
+		}
+	}
+	printlist(templist);
+}
+
+
+//looks for value and returns first index with that value, -1 if not found
+int finditem(listinfo *templist, int item){
+	// looping through the array and removing the
+	// item
+	for (int i = 0; i < templist->len; i++){
+		if (templist->data[i] == item){
+			return i;
+		}
+	}
+	return -1;
 }
 
 // return nothing
@@ -127,7 +213,10 @@ void printlist(listinfo *templist){
 
 int main(){
 	listinfo * list = createList(5);
-	allocateData(list,5,0);
-	allocateData(list,6,4);
-	appendData(list,7);
+	allocateData(list,1,0);
+	allocateData(list,2,2);
+	allocateData(list,2,3);
+	allocateData(list,2,3);
+	allocateData(list,5,4);
+	removeitem(list, 2);
 }
