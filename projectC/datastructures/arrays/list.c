@@ -209,14 +209,3 @@ void printlist(listinfo *templist){
 	printf("\n");
 	return;
 }
-
-
-int main(){
-	listinfo * list = createList(5);
-	allocateData(list,1,0);
-	allocateData(list,2,2);
-	allocateData(list,2,3);
-	allocateData(list,2,3);
-	allocateData(list,5,4);
-	removeitem(list, 2);
-}

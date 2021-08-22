@@ -1,7 +1,7 @@
 Idea is from [jwasham's](https://github.com/jwasham/coding-interview-university#arrays) coding uni repository.
 
 ---
-#### Implementation of a list using C & C++
+#### Implementation of a list using [C](C) & [C++](C++)
 
 - [x] Implement a vector (mutable array with automatic resizing):
 
