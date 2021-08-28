@@ -1,5 +1,5 @@
 - [Arrays](arrays)
-- Linked List
+- [Linked List](linkedlist)
 - Stack
 - Queue
 - Hash table
