@@ -2,7 +2,9 @@
 
 ### Demo
 
-![](.images/demo.png)
+<p align="center">
+  <img width="244" height="211" src=".images/demo.png"></img>
+</p>
 
 **Tier:** 1-Beginner
 

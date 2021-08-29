@@ -2,7 +2,9 @@
 
 # Demo
 
-![](.images/demo.png)
+<p align="center">
+  <img width="500" height="271" src=".images/demo.png"></img>
+</p>
 
 Make sure install `pandas`, pandas was used to convert json to csv because I didnt have enough time to implement a function that converts json to csv.
 
