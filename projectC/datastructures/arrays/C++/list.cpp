@@ -101,13 +101,3 @@ void List::deleteindex(int index){
 		List::var_len -= 1;
 	}
 }
-
-int main(){
-	List l1(5);
-	l1.printlist();
-	l1.insert(2,3);
-	l1.printlist();
-	l1.push(88);
-	l1.printlist();
-	return 0;
-}
