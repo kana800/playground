@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include "linkedlist.h"
 
+// head pointer to keep intrack of the head
+node* head = NULL;
+// tail pointer to keep intrack of the tail
+node* tail = NULL;
+
 // returns node struct pointer
 // args: data -> number you want to include in your list
 //		 index -> place you want to include your data

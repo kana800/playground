@@ -2,8 +2,9 @@ Idea is from [jwasham's](https://github.com/jwasham/coding-interview-university#
 
 ---
 
-- [C Implementation](C)
-- for [C++ implementation](C++), I will be using classes to implement the node.
+Implementation using [C Implementation](C) and [C++ implementation](C++)
+
+for C++, I will be using classes to implement the node.
 
 - [x]  `size()` - returns number of data elements in list
 - [x]  `empty()` - bool returns true if empty

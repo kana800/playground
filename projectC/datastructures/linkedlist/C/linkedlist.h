@@ -9,10 +9,6 @@ typedef struct node {
 	struct node * next;
 } node;
 
-// head pointer to keep intrack of the head
-node* head = NULL;
-// tail pointer to keep intrack of the tail
-node* tail = NULL;
 
 node * createnode(int data, int index); // returns a structure
 int size(node* head); // returns the number of elements in the array
