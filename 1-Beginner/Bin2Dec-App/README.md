@@ -1,3 +1,5 @@
+### Demo
+
 <p align="center">
   <img width="460" height="300" src="images/bin2dec.gif"></img>
 </p>
@@ -8,9 +10,6 @@
 </p>
 
 
-<p align="center">
-  <img width="460" height="300" src="images/bin2dec_bash.gif"></img>
-</p>
 
 
 ## Project : Bin2Dec

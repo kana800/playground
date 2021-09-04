@@ -7,17 +7,6 @@
   <img width="470" height="546" src="images/js.png"></img>
 </p>
 
-**Version 2**
-
-<p align="center">
-  <img width="476" height="546" src="images/v1.png"></img>
-</p>
-
-**Version 1**
-
-<p align="center">
-  <img width="476" height="546" src="images/v2.gif"></img>
-</p>
 
 
 # Project
