@@ -15,6 +15,8 @@
 - [x] [**Count Vowels**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 - [x] [**Check if Palindrome**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 - [x] [**Count Words in a String**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/text) - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+- [ ] [**Credit Card Validator**](ccvalid) - Takes in a credit card number from a common credit card vendor and validates it to make sure that it is a valid number
+- [ ] [**Fast Exponential**](fastexpo) - Ask the user to enter 2 integer a and b and output a^b
 
 ---
 
@@ -26,3 +28,11 @@
 - [x] [**Calculator**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/calculator) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 - [x] [**CSV2JSON**](csv2json) - Converts CSV file format to JSON file format
 - [x] [**Dollars to Cents**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/dollars_to_cents) - Converting Dollars to Cents
+- [x] [**Input Validation**](input_validation) - Script to validate inputs entered by a user using RegEx
+- [ ] [**Dynamic CSS Variable**](dynamiccssvariable) - Dynamically Change CSS Variable Settings
+- [ ] [**TrueOrFalse**](trueorfalse) - Identify the results of a conditional comparison
+- [x] [**Key Value**](keyvalue) - Keyboard Event Values
+- [ ] [**Lorem Ipsum Generator**](lorem) - Generate lorem ipsum placeholder text
+- [ ] [**Notes App**](notes) - Create an online note pad
+- [ ] [**Pearson Regression**](regr) - Calculate the correaltion coefficient for two sets of data
+- [ ] [**Pomodoro Clock**](pomo) - Pomodoro Clock
