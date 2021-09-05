@@ -9,7 +9,7 @@
 - [x] [**Input Validation**](input_validation) - Script to validate inputs entered by a user using RegEx
 - [x] [**Key Value**](keyvalue) - Keyboard Event Values
 - [ ] [**Dynamic CSS Variable**](dynamiccssvariable) - Dynamically Change CSS Variable Settings
-- [ ] [**TrueOrFalse**](trueorfalse) - Identify the results of a conditional comparison
+- [x] [**TrueOrFalse**](trueorfalse) - Identify the results of a conditional comparison
 - [ ] [**Lorem Ipsum Generator**](lorem) - Generate lorem ipsum placeholder text
 - [ ] [**Notes App**](notes) - Create an online note pad
 - [ ] [**Pearson Regression**](regr) - Calculate the correaltion coefficient for two sets of data
