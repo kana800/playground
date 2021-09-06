@@ -3,10 +3,12 @@ Idea is from [jwasham's](https://github.com/jwasham/coding-interview-university#
 ---
 #### Implementation of a queue using Linked List: [C](C_LL) & [C++](C++_LL)
 
-- [ ] Implement using linked-list, with tail pointer:
-  - [ ] enqueue(value) - adds value at position at tail
-  - [ ] dequeue() - returns value and removes least recently added element (front)
-  - [ ] empty()
+- [x] Implement using linked-list, with tail pointer:
+  - [x] enqueue(value) - adds value at position at tail
+  - [x] dequeue() - returns value and removes least recently added element (front)
+  - [x] empty()
+
+#### Implementation of a queue using Linked List: [C](C_ARRAYS) & [C++](C++_LL)
 
 - [ ] Implement using fixed-sized array:
   - [ ] enqueue(value) - adds item at end of available storage
