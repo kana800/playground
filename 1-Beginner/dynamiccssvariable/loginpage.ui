@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>login</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(38, 23, 33);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="mainlayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <layout class="QGridLayout" name="brieflayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label">
+         <property name="minimumSize">
+          <size>
+           <width>509</width>
+           <height>596</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>509</width>
+           <height>596</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>victoria-aleksandrova-feW76yDP2Ow-unsplash.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="loginlayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item row="3" column="0">
+        <layout class="QHBoxLayout" name="remembermeLayout">
+         <property name="spacing">
+          <number>50</number>
+         </property>
+         <property name="leftMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="rememberme">
+           <property name="font">
+            <font>
+             <family>Noto Serif</family>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(155, 24, 41);
+</string>
+           </property>
+           <property name="text">
+            <string>Remember Me</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="forgotpassword">
+           <property name="styleSheet">
+            <string notr="true">QPushButton#forgotpassword {
+    background-color: rgb(38, 23, 33);
+    border-width: 1px;
+	border-style:solid;
+	color: rgb(155, 24, 41);
+}
+
+QPushButton#forgotpassword:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.506, x2:0.935135, y2:0.489, stop:0.00540541 rgba(254, 101, 85, 255), stop:1 rgba(61, 23, 34, 255));
+
+}</string>
+           </property>
+           <property name="text">
+            <string>Forgot password?</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="welcome">
+         <property name="minimumSize">
+          <size>
+           <width>509</width>
+           <height>115</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>509</width>
+           <height>115</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Noto Serif</family>
+           <pointsize>35</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+	color: rgb(155, 24, 41);
+};</string>
+         </property>
+         <property name="text">
+          <string>Welcome Back!</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::MarkdownText</enum>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>200</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="loginmessage">
+         <property name="minimumSize">
+          <size>
+           <width>509</width>
+           <height>16</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>509</width>
+           <height>16</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Noto Serif</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+	color: rgb(155, 24, 41);
+};</string>
+         </property>
+         <property name="text">
+          <string>please Log in to your account</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::MarkdownText</enum>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <layout class="QVBoxLayout" name="loginboxes">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="leftMargin">
+          <number>10</number>
+         </property>
+         <property name="topMargin">
+          <number>50</number>
+         </property>
+         <property name="rightMargin">
+          <number>10</number>
+         </property>
+         <property name="bottomMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QLineEdit" name="username">
+           <property name="minimumSize">
+            <size>
+             <width>182</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Noto Serif</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::StrongFocus</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit#username {
+    background-color: rgb(95, 36, 46);
+    border-width: 2px;
+    border-radius: 10px;
+	border-color:rgb(38, 23, 33);
+    min-width: 10em;
+    padding: 6px;
+}</string>
+           </property>
+           <property name="placeholderText">
+            <string>Enter Email</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="password">
+           <property name="minimumSize">
+            <size>
+             <width>182</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Noto Serif</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit#password {
+    background-color: rgb(95, 36, 46);
+    border-width: 2px;
+    border-radius: 10px;
+	border-color:rgb(38, 23, 33);
+    min-width: 10em;
+    padding: 6px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>Enter Password</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="4" column="0">
+        <layout class="QHBoxLayout" name="loginButtonLayout" stretch="0,0">
+         <property name="spacing">
+          <number>50</number>
+         </property>
+         <property name="leftMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="login">
+           <property name="styleSheet">
+            <string notr="true">QPushButton#login {
+    background-color: rgb(95, 36, 46);
+    border-width: 1px;
+	height: 35px;
+}
+
+QPushButton#login:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.506, x2:0.935135, y2:0.489, stop:0.00540541 rgba(254, 101, 85, 255), stop:1 rgba(61, 23, 34, 255));
+    border-width: 1px;
+	height: 35px;
+	border-color:rgb(117, 20, 37);
+}</string>
+           </property>
+           <property name="text">
+            <string>Log In</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="createaccount">
+           <property name="styleSheet">
+            <string notr="true">QPushButton#createaccount {
+    background-color: rgb(95, 36, 46);
+    border-width: 1px;
+	height: 35px;
+}
+
+QPushButton#createaccount:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.506, x2:0.935135, y2:0.489, stop:0.00540541 rgba(254, 101, 85, 255), stop:1 rgba(61, 23, 34, 255));
+    border-width: 1px;
+	height: 35px;
+	border-color:rgb(117, 20, 37);
+}</string>
+           </property>
+           <property name="text">
+            <string>Create Account</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="imagecreds">
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+	color: rgb(155, 24, 41);
+};</string>
+         </property>
+         <property name="text">
+          <string>Image Credits to [@Victoria Aleksandrova](https://unsplash.com/photos/feW76yDP2Ow)</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::MarkdownText</enum>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
