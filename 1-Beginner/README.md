@@ -8,12 +8,24 @@
 - [x] [**Dollars to Cents**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/dollars_to_cents) - Converting Dollars to Cents
 - [x] [**Input Validation**](input_validation) - Script to validate inputs entered by a user using RegEx
 - [x] [**Key Value**](keyvalue) - Keyboard Event Values
-- [ ] [**Dynamic CSS Variable**](dynamiccssvariable) - Dynamically Change CSS Variable Settings
 - [x] [**TrueOrFalse**](trueorfalse) - Identify the results of a conditional comparison
+- [x] [**Dynamic CSS Variable**](dynamiccssvariable) - Dynamically Change CSS Variable Settings
 - [ ] [**Lorem Ipsum Generator**](lorem) - Generate lorem ipsum placeholder text
 - [ ] [**Notes App**](notes) - Create an online note pad
 - [ ] [**Pearson Regression**](regr) - Calculate the correaltion coefficient for two sets of data
 - [ ] [**Pomodoro Clock**](pomo) - Pomodoro Clock
+- [ ] Notes App - Create an online notepad
+- [ ] Product Landing Page - Showcase product details for possible buyers
+- [ ] Quiz App - Test your knowledge by answering questions
+- [ ] Recipe App - Recipe
+- [ ] Random Meal Generator - Generate random meals
+- [ ] Roman to Decimal Converter - Convert Roman to Decimal number
+- [ ] Slider Design - Display images using a slider control
+- [ ] Stopwatch App - Count time spent on activities
+- [ ] Vigenere Cipher - Encrypt text using the Vigenere Cypher
+- [ ] Wind Chill - Calculate the windchill factor from an actual temperature
+- [ ] Word Frequency - Calculate word frequency in a block of text
+- [ ] Weather App - Get the temperature, weather condition of a city
 
 ---
 
