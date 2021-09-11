@@ -6,16 +6,20 @@
 - [x] [**Calculator**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/calculator) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 - [x] [**CSV2JSON**](csv2json) - Converts CSV file format to JSON file format
 - [x] [**Dollars to Cents**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/dollars_to_cents) - Converting Dollars to Cents
-- [x] [**Input Validation**](input_validation) - Script to validate inputs entered by a user using RegEx
+- [x] [**Dynamic CSS Variable**](dynamiccssvariable) - Dynamically Change CSS Variable Settings
+- [ ] [**First DB App**]() - Your first Database app
+- [ ] [**Flip Image**]() - Change the orientation of images across two axes
+- [ ] [**Github Status**]() - Display Current Github Status
+- [x] [**Hello**](Hello) - User native language greeting
+- [ ] [**IOT Mailbox Simulator**] - Use callbacks to check your snail mail
+- [x] [**(JS) Input Validation**](input_validation) - Script to validate inputs entered by a user using RegEx
 - [x] [**Key Value**](keyvalue) - Keyboard Event Values
 - [x] [**TrueOrFalse**](trueorfalse) - Identify the results of a conditional comparison
-- [x] [**Dynamic CSS Variable**](dynamiccssvariable) - Dynamically Change CSS Variable Settings
 - [ ] [**Lorem Ipsum Generator**](lorem) - Generate lorem ipsum placeholder text
 - [ ] [**Notes App**](notes) - Create an online note pad
 - [ ] [**Pearson Regression**](regr) - Calculate the correaltion coefficient for two sets of data
 - [ ] [**Pomodoro Clock**](pomo) - Pomodoro Clock
-- [ ] Notes App - Create an online notepad
-- [ ] Product Landing Page - Showcase product details for possible buyers
+- [ ] [**Product Landing Page**]() - Showcase product details for possible buyers
 - [ ] Quiz App - Test your knowledge by answering questions
 - [ ] Recipe App - Recipe
 - [ ] Random Meal Generator - Generate random meals
