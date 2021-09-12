@@ -2,7 +2,6 @@ This repository contains my answer/projects for the questions/projects given in 
 
 1. https://github.com/florinpop17/app-ideas
 2. https://github.com/karan/Projects/
-3. https://github.com/florinpop17/weekly-projects
 
 *CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK*
 

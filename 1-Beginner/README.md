@@ -8,7 +8,7 @@
 - [x] [**Dollars to Cents**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/dollars_to_cents) - Converting Dollars to Cents
 - [x] [**Dynamic CSS Variable**](dynamiccssvariable) - Dynamically Change CSS Variable Settings
 - [ ] [**First DB App**]() - Your first Database app
-- [ ] [**Flip Image**]() - Change the orientation of images across two axes
+- [x] [**Flip Image**](flipimage) - Change the orientation of images across two axes
 - [ ] [**Github Status**]() - Display Current Github Status
 - [x] [**Hello**](Hello) - User native language greeting
 - [ ] [**IOT Mailbox Simulator**] - Use callbacks to check your snail mail
