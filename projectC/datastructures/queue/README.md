@@ -8,10 +8,9 @@ Idea is from [jwasham's](https://github.com/jwasham/coding-interview-university#
   - [x] dequeue() - returns value and removes least recently added element (front)
   - [x] empty()
 
-#### Implementation of a queue using Linked List: [C](C_ARRAYS) & [C++](C++_LL)
+#### Implementation of a queue using Arrays: [C](C_ARRAY)
 
-- [ ] Implement using fixed-sized array:
-  - [ ] enqueue(value) - adds item at end of available storage
-  - [ ] dequeue() - returns value and removes least recently added element
+- [x] Implement using fixed-sized array:
+  - [x] enqueue(value) - adds item at end of available storage
+  - [x] dequeue() - returns value and removes least recently added element
   - [ ] empty()
-  - [ ] full()
