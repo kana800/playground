@@ -1,18 +1,19 @@
+## Project : Bin2Dec
+
 ### Demo
 
+#### Python GUI
 <p align="center">
-  <img width="460" height="300" src="images/bin2dec.gif"></img>
+  <img width="460" height="300" src=".images/bin2dec.gif"></img>
 </p>
 
-
+#### HTML GUI
 <p align="center">
-  <img width="460" height="300" src="images/bin2dec_html.gif"></img>
+  <img width="460" height="300" src=".images/bin2dec_html.gif"></img>
 </p>
 
+[live preview](https://codepen.io/kana800/pen/PojKeZx)
 
-
-
-## Project : Bin2Dec
 **Tier:** 1-Beginner
 
 Binary is the number system all digital computers are based on.
