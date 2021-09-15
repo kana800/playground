@@ -1,30 +1,30 @@
-# Progress
-
-**JS**
-
-<p align="center">
-  <img width="723" height="367" src="images/js.gif"></img>
-</p>
-
-
-**python**
-
-<p align="center">
-  <img width="506" height="552" src="images/python.gif"></img>
-</p>
-
-**Bash**
-
-
-<p align="center">
-  <img width="723" height="367" src="images/bash.gif"></img>
-</p>
-
-
-
-# Project
-
 # ColorCycle
+
+### Demo
+
+#### JS
+
+<p align="center">
+  <img width="723" height="367" src=".images/js.gif"></img>
+</p>
+
+[live preview](https://codepen.io/kana800/pen/WNOELxq)
+
+
+#### python
+
+<p align="center">
+  <img width="506" height="552" src=".images/python.gif"></img>
+</p>
+
+#### Bash
+
+<p align="center">
+  <img width="723" height="367" src=".images/bash.gif"></img>
+</p>
+
+
+
 **Tier:** 1-Beginner
 
 The use of color plays a major role in an applications User Interface and

@@ -1,91 +1,107 @@
 #include <QApplication>
 #include <QWidget>
-#include <QDir>
-#include <QFile>
-#include <QTextStream>
+#include <QListWidget>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QPushButton>
 #include <cstdio>
 #include <iostream>
 #include <ostream>
-#include <string.h>
-#include <QTime>
-#include <QDate>
+#include "initialsetup.cpp"
+#include <QDir>
+#include <QListWidgetItem>
 
-/*
- * return boolean;
- * args: 
-        const char * directory -> name of the 
-        directory
- * summary:
-        check if the current directory is available
-        and return true or false according to the 
-        availiability
- */
-bool directoryExists(const char * directory){
-    // instiating directory class
-    QDir dir;
-    return dir.exists(directory);
-}
 
-/*
- * return boolean;
- * args: 
-        const char * directory -> name of the 
-        directory
- * summary:
-        creates a directory return true if success
-        else false
- */
-bool createDirectory(const char * directory){
-    QDir dir;
-    return dir.mkdir(directory);
-}
-
-/*
- * return;
+/* return;
  * args:
-        const char * directory -> name of the 
-        directory
+    QListWidget *templist -> list widget pointer hold the list widget
+    Directory -> location of the folder which contains the files
  * summary:
-        creates an untitled file and save it
-        inside the directory given by the user
- */
-void createUntitledFile(const char * directory){
-    QString filename = "untitled.txt";
-    QTime currenttime = QTime::currentTime();
-    // appending time to the file name
-    filename.append(currenttime.toString());
-    QTextStream out{stdout};
-    QFile f{filename};
+    add name of the file to the templist (ListWidget), the files are scanned
+    from the "Directory" folder
+*/
+void addFilesInDirectory(QListWidget *templist, const char * directory){
+    QDir dir{directory};
+    /*checking if the directory exists*/
+    if (!dir.exists()){
+        qWarning("The directory doesnt exist");
+        return;
+    }
+    /* set filter to specify which kind of files that is needed */
+    dir.setFilter(QDir::Files);
+    QFileInfoList list = dir.entryInfoList();
 
-    if (f.open(QIODevice::WriteOnly)){
-        QTextStream out{&f};
-    }else{
-        qWarning("cannot open file");
+    for (int i = 0; i < list.size(); i++){
+        QString name = list[i].fileName();
+        new QListWidgetItem(name, templist);
     }
     return;
 }
 
-/*
 
- */
+void openNote(QListWidgetItem *item){
+    QString text = item->text();
+
+    /* creating a new widget */
+    QWidget *notewindow = new QWidget;
+    QVBoxLayout *notelayout = new QVBoxLayout(notewindow);
+
+    QHBoxLayout *optionlayout = new QHBoxLayout();
+    QPushButton *closenote = new QPushButton("create note");    
+    QPushButton *savenote = new QPushButton("save note");    
+    QPushButton *renamenote = new QPushButton("rename note");    
+    
+    optionlayout->addWidget(closenote);
+    optionlayout->addWidget(savenote);
+    optionlayout->addWidget(renamenote);
+
+    /* adding signals to the list widget */
+    QObject::connect(closenote, &QPushButton::clicked,
+        notewindow, &QWidget::close);
+    /* adding signals to the list widget */
+    QObject::connect(savenote, &QPushButton::clicked,
+        savenote);
+    /* adding signals to the list widget */
+    QObject::connect(renamenote, &QPushButton::clicked,
+        renamenote);
+}
 
 int main(int argc, char **argv){
 
-    // creating an application instance
-    // and widget
-
+    /*  creating an application instance
+     *  and widget
+     */
     QApplication app(argc, argv);
-    QWidget window;
+    QWidget *window = new QWidget;
+    /* list widget that contains all the notes*/
+    QListWidget *list = new QListWidget;
 
+    /* main layout */
+    QVBoxLayout *mainlayout = new QVBoxLayout(window);
+    /* second layout */
+    QHBoxLayout *secondlayout = new QHBoxLayout();
+    QPushButton *createnote = new QPushButton("create note");    
+    /* addwidgets to the second layout */
+    secondlayout->addWidget(createnote);
+    /*adding widgets to the main layout*/
+    mainlayout->addWidget(list);    
+    mainlayout->addLayout(secondlayout);
+    
     const char * directory = "notes";
-    bool t = directoryExists(directory);
-    createUntitledFile(directory);
-    /*
-    window.resize(250,100);
-    window.setWindowTitle("test example");
-    window.show();
+    initializeProgram(directory);
+
+    /*  listing the contents of the directory and adding
+        them tot the listwidget
+    */    
+    addFilesInDirectory(list, directory);
+    
+    /* adding signals to the list widget */
+    QObject::connect(list, &QListWidget::itemDoubleClicked,
+        openNote);
+
+    /* finializing the window details */ 
+    window->setWindowTitle("quick notes");
+    window->show();
 
     return app.exec();
-    */
-    return 0;
 }

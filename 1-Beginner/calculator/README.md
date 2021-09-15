@@ -1,16 +1,17 @@
-# Progress
+## Calculator
 
-**JS Version**
 
+### Demo
+
+
+### JS
 
 <p align="center">
-  <img width="470" height="546" src="images/js.png"></img>
+  <img width="470" height="546" src=".images/js.png"></img>
 </p>
 
+[live preview](https://codepen.io/kana800/pen/VwWzqpX)
 
-
-# Project
-## Calculator
 
 **Tier:** 1-Beginner
 

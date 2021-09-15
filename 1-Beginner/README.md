@@ -11,7 +11,7 @@
 - [x] [**Flip Image**](flipimage) - Change the orientation of images across two axes
 - [ ] [**Github Status**]() - Display Current Github Status
 - [x] [**Hello**](Hello) - User native language greeting
-- [ ] [**IOT Mailbox Simulator**] - Use callbacks to check your snail mail
+- [ ] [**IOT Mailbox Simulator**]() - Use callbacks to check your snail mail
 - [x] [**(JS) Input Validation**](input_validation) - Script to validate inputs entered by a user using RegEx
 - [x] [**Key Value**](keyvalue) - Keyboard Event Values
 - [x] [**TrueOrFalse**](trueorfalse) - Identify the results of a conditional comparison
@@ -29,7 +29,7 @@
 - [ ] Vigenere Cipher - Encrypt text using the Vigenere Cypher
 - [ ] Wind Chill - Calculate the windchill factor from an actual temperature
 - [ ] Word Frequency - Calculate word frequency in a block of text
-- [ ] Weather App - Get the temperature, weather condition of a city
+- [ ] [**Weather App**]() - Get the temperature, weather condition of a city
 
 ---
 
