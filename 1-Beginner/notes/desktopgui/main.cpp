@@ -39,32 +39,43 @@ void addFilesInDirectory(QListWidget *templist, const char * directory){
 }
 
 
-void openNote(QListWidgetItem *item){
-    QString text = item->text();
+void closenote(){
+}
 
-    /* creating a new widget */
+void savenote(){
+}
+
+void renamenote(){
+}
+
+void openNote(QListWidgetItem *item){
+    QString filename = item->text();
     QWidget *notewindow = new QWidget;
     QVBoxLayout *notelayout = new QVBoxLayout(notewindow);
-
     QHBoxLayout *optionlayout = new QHBoxLayout();
-    QPushButton *closenote = new QPushButton("create note");    
-    QPushButton *savenote = new QPushButton("save note");    
-    QPushButton *renamenote = new QPushButton("rename note");    
+    QPushButton *closenotebtn = new QPushButton("create note");    
+    QPushButton *savenotebtn = new QPushButton("save note");    
+    QPushButton *renamenotebtn = new QPushButton("rename note");    
     
-    optionlayout->addWidget(closenote);
-    optionlayout->addWidget(savenote);
-    optionlayout->addWidget(renamenote);
+    optionlayout->addWidget(closenotebtn);
+    optionlayout->addWidget(savenotebtn);
+    optionlayout->addWidget(renamenotebtn);
 
     /* adding signals to the list widget */
-    QObject::connect(closenote, &QPushButton::clicked,
-        notewindow, &QWidget::close);
+    QObject::connect(closenotebtn, &QPushButton::clicked,
+        closenote);
     /* adding signals to the list widget */
-    QObject::connect(savenote, &QPushButton::clicked,
+    QObject::connect(savenotebtn, &QPushButton::clicked,
         savenote);
     /* adding signals to the list widget */
-    QObject::connect(renamenote, &QPushButton::clicked,
+    QObject::connect(renamenotebtn, &QPushButton::clicked,
         renamenote);
+
+    notewindow->setWindowTitle("notepad");
+    notewindow->show();
 }
+
+
 
 int main(int argc, char **argv){
 
