@@ -10,6 +10,9 @@
 #include "initialsetup.cpp"
 #include <QDir>
 #include <QListWidgetItem>
+#include <QTextEdit>
+#include <QMessageBox>
+#include "notepad.cpp"
 
 
 /* return;
@@ -38,41 +41,10 @@ void addFilesInDirectory(QListWidget *templist, const char * directory){
     return;
 }
 
-
-void closenote(){
-}
-
-void savenote(){
-}
-
-void renamenote(){
-}
-
 void openNote(QListWidgetItem *item){
     QString filename = item->text();
-    QWidget *notewindow = new QWidget;
-    QVBoxLayout *notelayout = new QVBoxLayout(notewindow);
-    QHBoxLayout *optionlayout = new QHBoxLayout();
-    QPushButton *closenotebtn = new QPushButton("create note");    
-    QPushButton *savenotebtn = new QPushButton("save note");    
-    QPushButton *renamenotebtn = new QPushButton("rename note");    
-    
-    optionlayout->addWidget(closenotebtn);
-    optionlayout->addWidget(savenotebtn);
-    optionlayout->addWidget(renamenotebtn);
 
-    /* adding signals to the list widget */
-    QObject::connect(closenotebtn, &QPushButton::clicked,
-        closenote);
-    /* adding signals to the list widget */
-    QObject::connect(savenotebtn, &QPushButton::clicked,
-        savenote);
-    /* adding signals to the list widget */
-    QObject::connect(renamenotebtn, &QPushButton::clicked,
-        renamenote);
-
-    notewindow->setWindowTitle("notepad");
-    notewindow->show();
+    NotePad *notes = new NotePad(filename);
 }
 
 

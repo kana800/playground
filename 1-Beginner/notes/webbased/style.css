@@ -1,0 +1,25 @@
+.container {
+    height:200px;
+    position: relative;
+    border: 3px solid greenyellow;
+}
+
+.vertical-centered {
+    margin:0;
+    position: absolute;
+    top:5%;
+    left:50%;
+    -ms-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+}
+
+.notebox{
+    position: relative;
+    text-align: center;
+}
+
+.notebox-content{
+    text-align: left;
+    font-size: small;
+    border: 1px thin black;
+}

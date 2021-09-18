@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <head>
-    <body>
-        h1
-    </body>
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <div class="container">
+        <div class="vertical-centered">
+            <b>NotePad:</b><input for="filename" id="filename" placeholder="insert filename here">
+            <br>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="seems a bit lonely here"></textarea>
+            <br>
+            <button id="addnote" name="addnote">Add Note</button>
+        </div>
+    </div>
+
+    <div class="notebox" id="notebox">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
