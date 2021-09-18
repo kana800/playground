@@ -16,7 +16,7 @@
 - [x] [**Key Value**](keyvalue) - Keyboard Event Values
 - [x] [**TrueOrFalse**](trueorfalse) - Identify the results of a conditional comparison
 - [ ] [**Lorem Ipsum Generator**](lorem) - Generate lorem ipsum placeholder text
-- [ ] [**Notes App**](notes) - Create an online note pad
+- [x] [**Notes App**](notes) - Create an online note pad
 - [ ] [**Pearson Regression**](regr) - Calculate the correaltion coefficient for two sets of data
 - [ ] [**Pomodoro Clock**](pomo) - Pomodoro Clock
 - [ ] [**Product Landing Page**]() - Showcase product details for possible buyers
