@@ -8,17 +8,21 @@ This repository contains my answer/projects for the questions/projects given in 
 ---
 #### Projects 
 
-The list below contains all the projects from [florinpop17's](https://github.com/florinpop17/app-ideas) & [karan's](https://github.com/karan/Projects/) repo.
+The list below contains all the projects from [florinpop17's](https://github.com/florinpop17/app-ideas) repo.
 
 - [Beginner](1-Beginner)
 - [Intermediate](2-Intermediate)
 - [Advanced](3-Advanced)
 
+The list below contains folder for the [karan's project](https://github.com/karan/Projects/).
+
+- [karan's projectlist solutions](karanprojects)
+
 The list below contains projects from [project based tutorial in C](https://github.com/rby90/Project-Based-Tutorials-in-C) repo.
 
 - [Project Based on C/C++](projectC)
 
-The list below contains projects related to embedded systems
+The list below contains projects related to embedded systems.
 
 - [Arduino Projects](arduino)
 - [Embedded System Projects](embeddedproject)
