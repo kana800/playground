@@ -1,0 +1,14 @@
+.container {
+    height:30px;
+    position: relative;
+    border: 3px solid skyblue;
+}
+
+.vertical-centered {
+    margin:0;
+    position: absolute;
+    top:5%;
+    left:50%;
+    -ms-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+}
