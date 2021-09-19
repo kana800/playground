@@ -1,5 +1,11 @@
 # Weather App
 
+### [Web Based](webased)
+
+- [livepreview](https://codepen.io/kana800/pen/powLVXQ)
+
+---
+
 **Tier:** 1-Beginner
 
 A weather application to get the temperature, weather condition and whether it is day or night of a particular city using `accuweather`. A free weather api.
@@ -24,3 +30,11 @@ A weather application to get the temperature, weather condition and whether it i
 
 - [Weather App on Codepen](https://codepen.io/tutsplus/pen/gObLaEP) by [George Martsoukos]
 - [Coding A Weather App In Pure JavaScipt](https://www.youtube.com/watch?v=ZPG2wGNj6J4)
+
+
+## Image References
+
+- [clearsky](https://unsplash.com/photos/ROVBDer29PQ)
+- [cloudysky](https://unsplash.com/photos/UbDc3Mm7JP8)
+- [rainsky](https://unsplash.com/photos/gw023awV33A)
+- [snowsky](https://unsplash.com/s/photos/snow-sky)

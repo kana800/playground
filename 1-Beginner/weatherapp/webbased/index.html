@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <head>
-    <title>Notes</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container-weather-input">
         <div class="vertical-centered">
             <label for="countryname">Enter Country:</label>
-            <input id="countryname" name="countryname" type="text">
+            <input id="countryname" name="countryname" type="text" placeholder="enter country name">
             <button type="submit" id="submitbtn">sumbit</button>
         </div>
     </div>
+    <div class="weather-card">
+        <div class="container">
+            <img src="" alt="" id="weathericon">
+            <h4 id="weathertype"></h4>
+            <span id="weatherdesc"></span>
+            <span id="weathertemp"></span>
+        </div>
+    </div>
+    <h3 id="weathertype"></h3>
+    <span id="weatherdesc"></span>
+    <span id="weathertemp"></span>
     <script src="main.js"></script>
 </body>
 </html>

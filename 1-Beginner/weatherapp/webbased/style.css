@@ -1,8 +1,32 @@
-.container {
-    height:30px;
-    position: relative;
-    border: 3px solid skyblue;
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
+.container {
+    height:200px;
+    position: relative;
+    border: 3px solid greenyellow;
+}
+
+.container-weather-input{
+    height:45px;
+    position: relative;
+    border: 3px solid greenyellow;
+}
+
+.weather-card {
+    top:5%;
+    left:50%;
+    text-align: center;
+    position: relative;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    -ms-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+}
+
+
 
 .vertical-centered {
     margin:0;
