@@ -2,6 +2,8 @@
 
 ### [Web Based](webased)
 
+Make sure to replace the API key with your own API key from openweathermaps
+
 - [livepreview](https://codepen.io/kana800/pen/powLVXQ)
 
 ---

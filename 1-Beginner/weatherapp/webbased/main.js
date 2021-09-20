@@ -5,7 +5,7 @@ var submitbutton = document.getElementById("submitbtn");
 submitbutton.addEventListener("click", checkCountry);
 
 /*weather app information*/
-let apikey = '9830d9d09b5209707a3c33379153c3a5';
+let apikey = '';
 let unit = 'standard';
 
 /*
