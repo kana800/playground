@@ -1,3 +1,24 @@
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/kana800/Side-Projects">
+    <img src=".images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">SIDE PROJECTS</h3>
+
+  <p align="center">
+    <br />
+    <br />
+    <a href="https://github.com/kana800/Side-Projects/projects">View Progress</a>
+    ·
+    <a href="https://github.com/kana800/Side-Projects/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kana800/Side-Projects/issues">Request Feature</a>
+  </p>
+</p>
+
+
 This repository contains my answer/projects for the questions/projects given in the repositories listed below:
 
 1. https://github.com/florinpop17/app-ideas
@@ -16,7 +37,7 @@ The list below contains all the projects from [florinpop17's](https://github.com
 
 The list below contains folder for the [karan's project](https://github.com/karan/Projects/).
 
-- [karan's projectlist solutions](karanprojects)
+- [Karan's project list solutions](karanprojects)
 
 The list below contains projects from [project based tutorial in C](https://github.com/rby90/Project-Based-Tutorials-in-C) repo.
 
