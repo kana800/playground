@@ -24,8 +24,24 @@ class Widget(qtw.QWidget):
         self.ui.setupUi(self)
 
         self.ui.search.clicked.connect(self.searchWeather)
+        self.resize(240, 330)
+        self.setMinimumSize(qtc.QSize(240, 330))
+        self.setMaximumSize(qtc.QSize(240, 330))
+        self.ui.weathericon.setScaledContents(True)
 
         self.show()
+
+    def setIcon(self, iconpath):
+        """
+        sets the icons to the weathericon
+        label
+        """
+        weathericon = qtg.QPixmap(iconpath)
+        weathericon.scaled(self.ui.weathericon.width(),
+                           self.ui.weathericon.height(),
+                           qtc.Qt.IgnoreAspectRatio,
+                           qtc.Qt.SmoothTransformation)
+        self.ui.weathericon.setPixmap(weathericon)
 
     def searchWeather(self):
         """
@@ -40,11 +56,21 @@ class Widget(qtw.QWidget):
             weatherdata = json.loads(page.text)
             temperature =weatherdata["main"]["feels_like"]
             weather = weatherdata["weather"][0]["main"]
+            # setting the weather
             if weather == "Clouds":
-                self.ui.weathericon.setPixmap(qtg.QPixmap("clouds.png"))
+                self.setIcon("icons/clouds.png")
+            elif weather == "Clear":
+                self.setIcon("icons/sun.png")
+            elif weather == "Snow":
+                self.setIcon("icons/snowy.png")
+            else:
+                self.setIcon("icons/storm.png")
+            # setting the temperature
+            self.ui.temperature.setText(str(temperature) + ' K')
         else:
             self.ui.countryname.clear()
-            return qtw.QMessageBox.critical(self, "Request Failed", "Response Failed")
+            return qtw.QMessageBox.critical(self, "Request Failed",
+                                            "Response Failed Check Country Name")
 
 if __name__ == "__main__":
     app = qtw.QApplication(sys.argv)
