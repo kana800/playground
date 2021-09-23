@@ -27,4 +27,4 @@
 - [ ] Vigenere Cipher - Encrypt text using the Vigenere Cypher
 - [ ] Wind Chill - Calculate the windchill factor from an actual temperature
 - [ ] Word Frequency - Calculate word frequency in a block of text
-- [ ] [**Weather App**](weatherapp) - Get the temperature, weather condition of a city
+- [x] [**Weather App**](weatherapp) - Get the temperature, weather condition of a city
