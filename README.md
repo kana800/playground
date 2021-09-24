@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
-<p style="text-align: center">
+<p style="text-align: center" align="center">
   <a href="https://github.com/kana800/Side-Projects">
     <img src=".images/logo.png" alt="Logo">
   </a>
@@ -65,4 +65,4 @@ Today is, `2021-06-03` and I am starting [#100daysofCodingChallenge](https://www
 
 #### References
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>)
+<div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
