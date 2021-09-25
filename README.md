@@ -2,7 +2,7 @@
 <br />
 <p style="text-align: center" align="center">
   <a href="https://github.com/kana800/Side-Projects">
-    <img src=".images/logo.png" alt="Logo">
+	::ocean::
   </a>
 
   <h3 align="center">SIDE PROJECTS</h3>
