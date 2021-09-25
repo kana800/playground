@@ -6,9 +6,7 @@
   </a>
 
   <h3 align="center">SIDE PROJECTS</h3>
-
   <p align="center">
-    <br />
     <br />
     <a href="https://github.com/kana800/Side-Projects/projects">View Progress</a>
     ·
