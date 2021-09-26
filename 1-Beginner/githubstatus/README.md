@@ -2,8 +2,8 @@
 
 ### [Web Based](webbased)
 
-`requests` is deprecated, here are list of [alternatives](https://github.com/request/request/issues/3143). I have used `got()`.
-
+`requests` is deprecated, here are list of [alternatives](https://github.com/request/request/issues/3143). I have used `got()`. Use
+`node main.js` to run the program.
 
 **Tier:** 1-Beginner
 
@@ -22,11 +22,11 @@ to develop it using your language of choice!
 
 ## User Stories
 
--   [ ] User can see the current status for GitHub Git operations, API Requests,
+-   [x] User can see the current status for GitHub Git operations, API Requests,
 Operational Issues, PRs, Dashboard, & Projects, Operational Notifications,
 Operational Gists, and Operational GitHub Pages as a list in the main app
 window.
--   [ ] User can retrieve the most recent status from the GitHub Status web
+-   [x] User can retrieve the most recent status from the GitHub Status web
 site by clicking a 'Get Status' button.
 
 ## Bonus features

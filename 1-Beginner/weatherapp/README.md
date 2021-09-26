@@ -1,6 +1,6 @@
 # Weather App
 
-### [Web Based](webased)
+### [Web Based](webbased)
 
 Make sure to replace the API key with your own API key from [openweathermaps](https://openweathermap.org/api).
 

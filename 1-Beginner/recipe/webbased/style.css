@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.recipe-navigator {
+    text-align: left;
+}
+
+.recipe-type{
+    padding-left: 0%;
+}
+
+.responsive-image{
+    width:25%;
+    height: 25%;
+}
+
+.recipe-type li{
+    font-size: small;
+    font-style: italic;
+    display: inline;
+}
+
+.ingredients {
+    text-align: left;
+}

@@ -7,7 +7,7 @@
 - [x] [**Dynamic CSS Variable**](dynamiccssvariable) - Dynamically Change CSS Variable Settings
 - [ ] [**First DB App**]() - Your first Database app
 - [x] [**Flip Image**](flipimage) - Change the orientation of images across two axes
-- [ ] [**Github Status**]() - Display Current Github Status
+- [ ] [**Github Status**](githubstatus) - Display Current Github Status
 - [x] [**Hello**](Hello) - User native language greeting
 - [ ] [**IOT Mailbox Simulator**]() - Use callbacks to check your snail mail
 - [x] [**(JS) Input Validation**](input_validation) - Script to validate inputs entered by a user using RegEx
@@ -19,7 +19,7 @@
 - [ ] [**Pomodoro Clock**](pomo) - Pomodoro Clock
 - [ ] [**Product Landing Page**]() - Showcase product details for possible buyers
 - [ ] Quiz App - Test your knowledge by answering questions
-- [ ] Recipe App - Recipe
+- [ ] [**Recipe App**](recipe) - Recipe
 - [ ] Random Meal Generator - Generate random meals
 - [ ] Roman to Decimal Converter - Convert Roman to Decimal number
 - [ ] Slider Design - Display images using a slider control
