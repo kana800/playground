@@ -31,8 +31,8 @@
 - [ ] Word Frequency - Calculate word frequency in a block of text
 - [x] [**Weather App**](weatherapp) - Get the temperature, weather condition of a city
 
-#### Rules
+#### Rules :straight_ruler:
 
 - Try to complete atleast one project per day, allocate 1 hour per day to complete projects/sub-tasks
 
-#### Log :log:
+#### Log :pencil:
