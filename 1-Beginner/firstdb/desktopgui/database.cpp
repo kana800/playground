@@ -1,9 +1,12 @@
 #include <cstddef>
+#include <cstdio>
+#include <cstdlib>
 #include <iostream>
 #include <QApplication>
 #include <QLabel>
 #include <string>
 #include "sqlite3.h"
+#include "database.h"
 
 
 static int callback(void * data, int argc, char **argv, char ** azColName){
@@ -16,41 +19,53 @@ static int callback(void * data, int argc, char **argv, char ** azColName){
     return 0;
 }
 
+/*
+ * return sqlite3 pointer
+ * creates a database & table
+ */
+sqlite3 *  createDatabase(){
+    sqlite3 * database;
+    int status = 0;
+    status = sqlite3_open(databasename, &database);
+
+    if (status) {
+        std::cerr << "ERR: CANNOT OPEN DATABASE " << sqlite3_errmsg(database) << std::endl;
+        exit(EXIT_FAILURE);
+    } else {
+        std::cout << "SUCCESS: DATABASE OPENED SUCCESFULLY" << std::endl;
+        sqlite3_close(database);
+        return database;
+    }
+}
+
+std::string generateSqlString(int id, char *firstname, char *secondname, int age, int salary){
+    char bufferstring[100];
+    std::snprintf(bufferstring, 99,
+        "INSERT INTO PERSON VALUES(%d, '%s', '%s', %d, %d);", id, firstname, secondname, age, salary);
+    return bufferstring;
+}
+
 int main(int argc, char **argv)
 {
 
     // initializing DB
-    sqlite3* DB;
+    sqlite3* database = createDatabase();
+    // creating a table
     int exit = 0;
-    exit = sqlite3_open("example.db", &DB);
-    char *errorMessage;
+    exit = sqlite3_open(databasename, &database);
+    char * errorMessage;
+    exit = sqlite3_exec(database, tablesql.c_str(), NULL, 0, &errorMessage);
 
-    std::string query = "SELECT * FROM PERSON;";
-
-    sqlite3_exec(DB, query.c_str(), callback, NULL,NULL);
-
-
-    std::string sql("INSERT INTO PERSON VALUES(1, 'STEVE', 'GATES', 30, 'PALO ALTO', 1000.0);"
-                    "INSERT INTO PERSON VALUES(2, 'BILL', 'ALLEN', 20, 'SEATTLE', 300.22);"
-                    "INSERT INTO PERSON VALUES(3, 'PAUL', 'JOBS', 24, 'SEATTLE', 9900.0);");
-
-    
-    exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &errorMessage);
-    
-    if (exit != SQLITE_OK) {
-        std::cerr << "ERROR INSERT" << std::endl;
+    if (exit != SQLITE_OK){
+        std::cerr << "ERR: CANNOT CREATE TABLE" << std::endl;
         sqlite3_free(errorMessage);
-        return -1;
-    }else{
-        std::cout << "RECORD CREATED" << std::endl;
+    } else {
+        std::cout << "SUCCESS: TABLE CREATED SUCCESFULLY" << std::endl;
+        sqlite3_close(database);
     }
-
-    std::cout << "STATE OF TABLE AFTER INSERT" << std::endl;
-  
-    sqlite3_exec(DB, query.c_str(), callback, NULL, NULL);
-    sqlite3_close(DB);
-
-
+    char name[] = "time";
+    char sname[] = "l";
+    std::cout << generateSqlString(5, name, sname, 5, 1000);
     return 0;
 
 //    QApplication app(argc, argv);
