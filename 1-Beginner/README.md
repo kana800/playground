@@ -1,3 +1,5 @@
+#### Project List :bricks:
+
 - [x] [**Binary to Decimal and Back Converter**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/Bin2Dec-App) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 - [x] [**Color Cycle**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/color_cycle) - Cycle a color value through incremental changes
 - [x] [**Countdown Timer**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/countdown_timer) - Event Countdown timer
@@ -28,3 +30,9 @@
 - [ ] [Wind Chill](windchill) - Calculate the windchill factor from an actual temperature
 - [ ] Word Frequency - Calculate word frequency in a block of text
 - [x] [**Weather App**](weatherapp) - Get the temperature, weather condition of a city
+
+#### Rules
+
+- Try to complete atleast one project per day, allocate 1 hour per day to complete projects/sub-tasks
+
+#### Log :log:
