@@ -27,7 +27,7 @@
 - [ ] Slider Design - Display images using a slider control
 - [ ] Stopwatch App - Count time spent on activities
 - [ ] Vigenere Cipher - Encrypt text using the Vigenere Cypher
-- [ ] [Wind Chill](windchill) - Calculate the windchill factor from an actual temperature
+- [x] [**Wind Chill**](windchill) - Calculate the windchill factor from an actual temperature
 - [ ] Word Frequency - Calculate word frequency in a block of text
 - [x] [**Weather App**](weatherapp) - Get the temperature, weather condition of a city
 
@@ -37,4 +37,6 @@
 
 #### Log :pencil:
 
-- `2021-09-29` (30 mins): Completed the first part of `wind chill` project. We can calculate the windchill using metric values
+- `2021-09-29` (30 mins): Completed the first part of `wind chill` project.
+	- We can calculate the windchill using metric values.
+	- (30mins) completed the rest of the project.
