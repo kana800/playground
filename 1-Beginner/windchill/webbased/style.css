@@ -1,0 +1,9 @@
+.windchill {
+    top:5%;
+    left:50%;
+    text-align: center;
+    position: relative;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    -ms-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+}
