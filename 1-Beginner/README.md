@@ -36,3 +36,5 @@
 - Try to complete atleast one project per day, allocate 1 hour per day to complete projects/sub-tasks
 
 #### Log :pencil:
+
+- `2021-09-29` (30 mins): Completed the first part of `wind chill` project. We can calculate the windchill using metric values
