@@ -40,3 +40,4 @@
 - `2021-09-29` (30 mins): Completed the first part of `wind chill` project.
 	- We can calculate the windchill using metric values.
 	- (30mins) completed the rest of the project.
+- `2021-09-30` (30 mins): Completed the user interface of the desktopgui version of `wind chill` project 
