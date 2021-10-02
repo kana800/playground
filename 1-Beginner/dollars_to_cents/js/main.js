@@ -1,5 +1,5 @@
 // convert dollar to decimal and "alert" the answer
-function DollarToCents(number)
+function DollarToCoins(number)
 {
     number = number * 100;
     let penny, nickel, dime, quarter, balance;
@@ -15,13 +15,6 @@ function DollarToCents(number)
     return s;
 };
 
-
-function foo()
-{
-  let dollarAmt = document.getElementById("dollar").value;
-  document.getElementById("centsOutput").innerHTML = DollarToCents(dollarAmt);
-};
-
 function validateForm()
 {
     let x = document.getElementById("dollar").value;
@@ -30,6 +23,6 @@ function validateForm()
         alert("input is empty")
         return false;
     }
-    foo()
-    return true;
+    let dollarAmt = document.getElementById("dollar").value;
+    DollarToCoins(dollarAmt);
 };
