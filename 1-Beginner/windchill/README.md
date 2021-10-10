@@ -1,4 +1,18 @@
-# Windchill
+<br />
+<p style="text-align: center" align="center">
+  <a href="https://github.com/kana800/Side-Projects">
+	:wind_chime:
+  </a>
+  <h3 align="center">WIND CHILL</h3>
+  <p align="center">
+    <br />
+    <a href="https://github.com/kana800/Side-Projects/tree/master/1-Beginner">Project List</a>
+    ·
+    <a href="https://github.com/kana800/Side-Projects/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kana800/Side-Projects/issues">Request Feature</a>
+  </p>
+</p>
 
 ### [Web Based](webbased)
 
