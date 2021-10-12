@@ -48,14 +48,15 @@ std::string generateSqlString(int id, char *firstname, char *secondname, int age
 int main(int argc, char **argv)
 {
 
-    // initializing DB
+    /*initializing DB*/
     sqlite3* database = createDatabase();
-    // creating a table
+    /*creating a table*/
     int exit = 0;
     exit = sqlite3_open(databasename, &database);
     char * errorMessage;
-    exit = sqlite3_exec(database, tablesql.c_str(), NULL, 0, &errorMessage);
 
+    /*creating the employee table*/
+    exit = sqlite3_exec(database, tablesql.c_str(), NULL, 0, &errorMessage);
     if (exit != SQLITE_OK){
         std::cerr << "ERR: CANNOT CREATE TABLE" << std::endl;
         sqlite3_free(errorMessage);
@@ -63,9 +64,6 @@ int main(int argc, char **argv)
         std::cout << "SUCCESS: TABLE CREATED SUCCESFULLY" << std::endl;
         sqlite3_close(database);
     }
-    char name[] = "time";
-    char sname[] = "l";
-    std::cout << generateSqlString(5, name, sname, 5, 1000);
     return 0;
 
 //    QApplication app(argc, argv);

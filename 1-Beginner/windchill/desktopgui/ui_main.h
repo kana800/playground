@@ -97,7 +97,7 @@ public:
         airtemp->setPlaceholderText(QCoreApplication::translate("Form", "input the air temp", nullptr));
         windchillbtn->setText(QCoreApplication::translate("Form", "calculate windchill", nullptr));
         units->setText(QString());
-        unitslabel->setText(QCoreApplication::translate("Form", "Metric or Standard", nullptr));
+        unitslabel->setText(QCoreApplication::translate("Form", "Check for Metric", nullptr));
     } // retranslateUi
 
 };
