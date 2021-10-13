@@ -1,5 +1,5 @@
 // importing lorem ipsum package
-import { LoremIpsum } from "lorem-ipsum";
+import LoremIpsum from "lorem-ipsum";
 
 let generator = document.getElementById("generator");
 
