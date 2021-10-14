@@ -15,3 +15,4 @@ The below lessons/courses will be covered in the month of october.
 - 2021/10/09: Read the book SCIP until chapter `1.1.6` 
 - 2021/10/12: Completed the Chapter `1.1.x` in SCIP Book & MIT Video `1A`
 - 2021/10/13: Completed Exercise 1.1, 1.2 & 1.3.
+- 2021/10/14: Completed the first segment of the Lecture `1B`
