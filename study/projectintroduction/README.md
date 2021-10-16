@@ -27,3 +27,4 @@
 - 2021/10/14: Completed the first segment of the Lecture `1B`
 - 2021/10/16: Completed lecture `1B`
 	- Completed Exercise 1.5 - 1.8
+	- Completed Introduction topic in `introduction to Cpp` course
