@@ -36,8 +36,3 @@ After this you should understand about the:
 - [Debug in C++](https://www.youtube.com/watch?v=SfGuIVzE_Os&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=11)
 
 </details>
-
-
-### Log
-
-
