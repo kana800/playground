@@ -2,7 +2,7 @@
 
 ### Syllabus
 
-- [ ] Introduction
+- [x] Introduction
 - [ ] Flow of Control
 - [ ] Functions
 - [ ] Arrays and strings
