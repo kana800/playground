@@ -107,6 +107,34 @@ The above procedure is called a *recursive* definition.
   > ```
 
   There is procedure called `a-plus-abs-b` which takes two parameters `a` and `b`, if `b` is greater than zero add it all numbers together (`b + a + b`) if not its going to be `b - a - b`.
+  
+- > Ben Bitdiddle has invented a test to determine whether the interpreter he is faced with is using applicative-order evaluation or normal-order evaluation.  He defines the following two procedures:
+  >
+  > ```lisp
+  > (define (p) (p))
+  > (define (test x y)
+  >   (if (= x 0)
+  >       0
+  >       y))
+  > ```
+  >
+  > Then he evaluates the expression
+  >
+  > `(test 0 (p))`
+  >
+  > What behavior will Ben observe with an interpreter that uses  applicative-order evaluation? What behavior will he observe with an  interpreter that uses normal-order evaluation? Explain your answer.
+
+  An interpreter that uses **applicative-order evaluation** will first evaluate the arguments and then apply. when the expression `(test 0 (p))` is evaluated.  `test` will evaluate the procedure since `x` is `0`  our output will be `0`, if it isnt `(p)` will be calling `(p)` this will cause an infinite loop.
+
+  In **normal-order evaluation** the interpreter will fully expand and then reduce, this will be written as :
+
+  ```lisp
+  (if (= 0 0))
+  	0
+  	(p)
+  ```
+
+  Here we replace the arguments of `test` function with the given parameters, since `x = 0` our output will be `0`, if its not `0` our output will be an infinite loop.
 
 #### Lecture `1B`: Procedures and Processes; Substitution Model
 
@@ -131,6 +159,58 @@ The above procedure is called a *recursive* definition.
 > (+ (square 3) (square 4))
 > (+ (* 3 3) (* 4 4))
 >  ```
+
+#### Exercises
+
+- > Alyssa P. Hacker doesn't see why `if` needs to be provided as a special form.  "Why can't I just define it as an ordinary procedure in terms of `cond`?'' she asks. Alyssa's friend Eva Lu Ator claims this can indeed be done, and she defines a new version of `if`:
+  >
+  > ```lisp
+  > (define (new-if predicate then-clause else-clause)
+  >   (cond (predicate then-clause)
+  >         (else else-clause)))
+  > ```
+  >
+  > Eva demonstrates the program for Alyssa:
+  >
+  > ```
+  > (new-if (= 2 3) 0 5)
+  > 5
+  > (new-if (= 1 1) 0 5)
+  > 0
+  > ```
+  >
+  > Delighted, Alyssa uses `new-if` to rewrite the square-root program:
+  >
+  > ```lisp
+  > (define (sqrt-iter guess x)  
+  > 	(new-if (good-enough? guess x)
+  > 	guess
+  > 	(sqrt-iter (improve guess x)
+  >     			x))) 
+  > ```
+  >
+  > What happens when Alyssa attempts to use this to compute square roots? Explain.
+
+  In the above procedure,
+
+  - `predicate` : `(good-enough? guess x)`
+  - `then-clause`: `guess`
+  - `else-clause`: `(square-iter (improve guess x) x)`
+
+  If we replace the above parameters with `new-if`
+
+  ```lisp
+  (define (new-if predicate then-clause else-clause)
+    (cond ((good-enough? guess x) guess)
+          (else (sqrt-iter (improve guess x)
+      			x))))
+  ```
+
+  this is a recursive function and the `new-if` will cause an infinite loop. since `new-if` is a procedure, it will not check if `(good-enough? guess x)` is true. what it will do is evaluate the arguments of the function, even when the `guess` is `good-enough`. 
+
+  
+
+
 
 
 
