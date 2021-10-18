@@ -13,11 +13,10 @@
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Flip Image**](flipimage)                                  | Change the orientation of images across two axes             |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Github Status**](githubstatus)                            | Display Current Github Status                                |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Hello**](Hello)                                           | User native language greeting                                |
-| ![](https://img.shields.io/badge/-todo-blueviolet)      | [**IOT Mailbox Simulator**]()                                | Use callbacks to check your snail mail                       |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**(JS) Input Validation**](input_validation)                | Script to validate inputs entered by a user using RegEx      |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Key Value**](keyvalue)                                    | Keyboard Event Values                                        |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**TrueOrFalse**](trueorfalse)                               | Identify the results of a conditional comparison             |
-| ![](https://img.shields.io/badge/-todo-blueviolet)      | [**Lorem Ipsum Generator**](lorem)                           | Generate lorem ipsum placeholder text                        |
+| ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Lorem Ipsum Generator**](lorem)                           | Generate lorem ipsum placeholder text                        |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Notes App**](notes)                                       | Create an online note pad                                    |
 | ![](https://img.shields.io/badge/-todo-blueviolet)      | [**Pearson Regression**](regr)                               | Calculate the correaltion coefficient for two sets of data   |
 | ![](https://img.shields.io/badge/-todo-blueviolet)      | [**Pomodoro Clock**](pomo)                                   | Pomodoro Clock                                               |
@@ -42,5 +41,6 @@
 - `2021-09-29` (30 mins): Completed the first part of `wind chill` project.
 	- We can calculate the windchill using metric values.
 	- (30mins) completed the rest of the project.
-- `2021-09-30` (30 mins): Completed the user interface of the `desktopgui` version of `wind chill` project 
-- `2021-10-10` (60 mins): Completed the `wind chill` project's `desktopgui` version
+- `2021-09-30` (30 mins): Completed the user interface of the `desktopgui` version of `wind chill` project.
+- `2021-10-10` (60 mins): Completed the `wind chill` project's `desktopgui` version.
+- `2021-10-17` (60 mins): Completed the `lorem ipsum generator` project.
