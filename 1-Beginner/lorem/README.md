@@ -53,9 +53,10 @@ Instead of creating a `textarea` element, I can make an element in the `index.ht
 </details>
 
 
+### Project Information
 <details>
 
-<summary>Project Information</summary>
+<summary>*projectinformation*</summary>
 
 
 **Tier:** 1-Beginner
