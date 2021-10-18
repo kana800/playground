@@ -28,3 +28,5 @@
 - 2021/10/16: Completed lecture `1B`
 	- Completed Exercise 1.5 - 1.8
 	- Completed Introduction topic in `introduction to Cpp` course
+- 2021/10/17: Completed FlowOfControl topic in `introduction to Cpp` course
+	- Started on `introduction/Problem Set #1`
