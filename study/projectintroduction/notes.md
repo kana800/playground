@@ -208,7 +208,11 @@ The above procedure is called a *recursive* definition.
 
   this is a recursive function and the `new-if` will cause an infinite loop. since `new-if` is a procedure, it will not check if `(good-enough? guess x)` is true. what it will do is evaluate the arguments of the function, even when the `guess` is `good-enough`. 
 
-  
+#### Lecture `2A`: Higher-order Procedures
+
+ High-order Procedures are procedures that take procedural arguments and produce procedural values to help us clarify and abstract some otherwise complicated processes.
+
+#### Lecture `2B` : Compound Data
 
 
 

@@ -2,8 +2,8 @@
 
 ### Syllabus
 
-- [x] Introduction
-- [ ] Flow of Control
+- [x] [Introduction](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#introduction)
+- [x] [Flow of Control](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#introduction)
 - [ ] Functions
 - [ ] Arrays and strings
 - [ ] Pointers
@@ -13,9 +13,13 @@
 - [ ] Advanced topics part 1
 - [ ] Advanced topics part 2
 
+### Problem Set
+
+- [x] [Problem Set 1](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/MIT6_096IAP11_assn01.pdf) | [solution](ps/ps1.md)
+
 #### Introduction
 
-After this you should understand about the:
+After this you should understand about:
 
 - The Compilation Process 
 - Tokens
@@ -35,4 +39,22 @@ After this you should understand about the:
 - [Variables in C++](https://www.youtube.com/watch?v=SfGuIVzE_Os&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=8)
 - [Debug in C++](https://www.youtube.com/watch?v=SfGuIVzE_Os&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=11)
 
+</details>
+
+
+#### Flow of Control
+
+After this you should understand about:
+
+- Control Structures
+	- conditionals
+	- loops
+	- nested control structures
+
+[MIT Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/MIT6_096IAP11_lec02.pdf)
+
+<details>
+<summary>Recommended Youtube Videos</summary>
+- [Loops in C++](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=14)
+- [Control Flow in C++](https://www.youtube.com/watch?v=a3IZ8WaIFAA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=15)
 </details>

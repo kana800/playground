@@ -63,7 +63,6 @@ sudo pacman -S qt5-base
 [more information](https://wiki.archlinux.org/title/qt#Installation)
 
 
-
 #### Usage
 
 If you are using linux:
