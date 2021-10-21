@@ -30,3 +30,6 @@
 	- Completed Introduction topic in `introduction to Cpp` course
 - 2021/10/17: Completed FlowOfControl topic in `introduction to Cpp` course
 	- Started on `introduction/Problem Set #1`
+- 2021/10/20: Completed lecture `2A`
+	- Completed lecture `2B`
+- 2021/10/21: covered SCIP chapter `1.2.1`
