@@ -6,18 +6,19 @@
 
 ![](.images/schedule.png)
 
-#### Main Course
+### Main Course
 
-- [Structure and intepretation of computer programs](https://teachyourselfcs.com/#programming) | [notes](notes.md) | [MIT Videos](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
+- [Structure and intepretation of computer programs](https://teachyourselfcs.com/#programming) | [Main](main.md) | [MIT Videos](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
 - [Programming Languages A, B & C](https://github.com/ossu/computer-science#core-programming)
 
-#### Extra Readings
+### Extra Readings
 
 - [How to Design Programs](https://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html)
 
-#### Other
+### Other
 
 - [Introduction to Cpp](introductiontocpp)
+
 
 ### Log
 
