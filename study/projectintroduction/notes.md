@@ -431,47 +431,58 @@ We can say that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Ctextup%7
 <p align="center">
 	<img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Ctextup%7Bfib%28n%20-%201%29%7D%20&plus;%20%5Ctextup%7Bfib%28n%20-%202%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D"></img>
 
-![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Ctextup%7Bfib%28n%20-%201%29%7D%20&plus;%20%5Ctextup%7Bfib%28n%20-%202%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D)
+<img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Ctextup%7Bfib%28n%20-%201%29%7D%20&plus;%20%5Ctextup%7Bfib%28n%20-%202%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D"></img>
 
-![](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%7D%7B%5Csqrt%205%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D)
+<img src="https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%7D%7B%5Csqrt%205%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D"></img>
 
-![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20&plus;%20%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D)
+<img src="https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20&plus;%20%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D"></img>
 
-![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%28%5Cfrac%7B%5Cphi%5E%7Bn%7D%7D%7B%5Cphi%7D%20-%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Cpsi%7D%29%20&plus;%20%28%5Cfrac%7B%5Cphi%5E%7Bn%20%7D%7D%7B%5Cphi%5E2%7D%20-%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Cpsi%5E2%7D%29)
+<img src="https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%28%5Cfrac%7B%5Cphi%5E%7Bn%7D%7D%7B%5Cphi%7D%20-%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Cpsi%7D%29%20&plus;%20%28%5Cfrac%7B%5Cphi%5E%7Bn%20%7D%7D%7B%5Cphi%5E2%7D%20-%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Cpsi%5E2%7D%29"></img>
 
-![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%28%5Cfrac%7B1%7D%7B%5Cphi%7D%20&plus;%20%5Cfrac%7B1%7D%7B%5Cphi%5E2%7D%29%20-%20%5Cpsi%5E2%20%28%5Cfrac%7B1%7D%7B%5Cpsi%7D%20&plus;%20%5Cfrac%7B1%7D%7B%5Cpsi%5E2%7D%29)
+<img src="https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%28%5Cfrac%7B1%7D%7B%5Cphi%7D%20&plus;%20%5Cfrac%7B1%7D%7B%5Cphi%5E2%7D%29%20-%20%5Cpsi%5E2%20%28%5Cfrac%7B1%7D%7B%5Cpsi%7D%20&plus;%20%5Cfrac%7B1%7D%7B%5Cpsi%5E2%7D%29"></img>
+
 </p>
 
 It is given that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Cphi%20%3D%20%5Cfrac%7B1%20&plus;%20%5Csqrt5%7D%7B2%7D%3B%20%5Cpsi%3D%5Cfrac%7B1%20-%20%5Csqrt5%7D%7B2%7D),
 
 <p align="center">
-![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%28%5Cfrac%7B1%7D%7B%5Cfrac%7B1%20&plus;%20%5Csqrt5%7D%7B2%7D%7D%20&plus;%20%5Cfrac%7B1%7D%7B%28%5Cfrac%7B1%20&plus;%20%5Csqrt5%7D%7B2%7D%29%5E2%7D%29%20-%20%5Cpsi%5E2%20%28%5Cfrac%7B1%7D%7B%5Cfrac%7B1%20-%20%5Csqrt5%7D%7B2%7D%7D%20&plus;%20%5Cfrac%7B1%7D%7B%28%5Cfrac%7B1%20-%20%5Csqrt5%7D%7B2%7D%29%5E2%7D%29)
+<img src="https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%28%5Cfrac%7B1%7D%7B%5Cfrac%7B1%20&plus;%20%5Csqrt5%7D%7B2%7D%7D%20&plus;%20%5Cfrac%7B1%7D%7B%28%5Cfrac%7B1%20&plus;%20%5Csqrt5%7D%7B2%7D%29%5E2%7D%29%20-%20%5Cpsi%5E2%20%28%5Cfrac%7B1%7D%7B%5Cfrac%7B1%20-%20%5Csqrt5%7D%7B2%7D%7D%20&plus;%20%5Cfrac%7B1%7D%7B%28%5Cfrac%7B1%20-%20%5Csqrt5%7D%7B2%7D%29%5E2%7D%29"></img>
 </p>
 
 After some [simplification](https://www.wolframalpha.com/input/?i=1%2F%281%2Bsqrt%285%29%29%2F2),
+
 <p align="center">
-![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%5En%20-%20%5Cpsi%5En)
+<img src="https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%5En%20-%20%5Cpsi%5En"></img>
 </p>
+
 We can say that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%7D%7B%5Csqrt%205%7D) is true and [`-1 < \psi < 0` then `-1 < \psi^2 < 1`](https://math.stackexchange.com/questions/2717549/prove-that-operatornamefibn-is-the-closest-integer-to-frac-phin-s),
 
 we can write `fib(n)` as two fractions,
-<p align="center">
-![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%7D%7D%7B%5Csqrt5%7D%20-%20%5Cfrac%7B%5Cpsi%5En%7D%7B%5Csqrt%205%7D)
 
-![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B%5Cpsi%5E2%7D%7B%5Csqrt5%7D%20%3D%20%5Cfrac%7B%5Cpsi%7D%7B%5Csqrt5%7D)
-</p>
-if we take the `\phi = (1 - \sqrt 5)/2` and since `\sqrt 5 > 2`,
 <p align="center">
-![](https://latex.codecogs.com/png.latex?-%5Cfrac%7B1%7D%7B2%7D%20%3C%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Csqrt5%7D%20%3C%20%5Cfrac%7B1%7D%7B2%7D)
+<img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%7D%7D%7B%5Csqrt5%7D%20-%20%5Cfrac%7B%5Cpsi%5En%7D%7B%5Csqrt%205%7D"></img>
+
+<img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B%5Cpsi%5E2%7D%7B%5Csqrt5%7D%20%3D%20%5Cfrac%7B%5Cpsi%7D%7B%5Csqrt5%7D"></img>
+
 </p>
+
+if we take the `\phi = (1 - \sqrt 5)/2` and since `\sqrt 5 > 2`,
+
+<p align="center">
+<img src="https://latex.codecogs.com/png.latex?-%5Cfrac%7B1%7D%7B2%7D%20%3C%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Csqrt5%7D%20%3C%20%5Cfrac%7B1%7D%7B2%7D"></img>
+</p>
+
 we can add `fib(n)`,
 <p align="center">
-![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%3C%20%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B%5Cpsi%5E2%7D%7B%5Csqrt5%7D%20%3C%20%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B1%7D%7B2%7D)
+<img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%3C%20%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B%5Cpsi%5E2%7D%7B%5Csqrt5%7D%20%3C%20%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B1%7D%7B2%7D"></img>
 </p>
+
 we can say that,
+
 <p align="center">
-![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%3C%20%5Cfrac%7B%5Cphi%5E2%7D%7B%5Csqrt5%7D%20%3C%20%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B1%7D%7B2%7D)
+<img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%3C%20%5Cfrac%7B%5Cphi%5E2%7D%7B%5Csqrt5%7D%20%3C%20%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B1%7D%7B2%7D"></img>
 </p>
+
 Above statement shows that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Cfrac%7B%5Cphi%5E2%7D%7B%5Csqrt5%7D) will be closest integer to `fib(n)`.
 
 ### Lecture `2A`: Higher-order Procedures
