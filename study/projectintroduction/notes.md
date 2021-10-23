@@ -1,4 +1,17 @@
-[TOC]
+### Table Of Content
+
+- Lecture `1A`: Overview and Introduction to Lisp
+  - The Elements of Programming
+  - Square Root of `X`
+  - Exercises
+- Lecture `1B`: Procedures and Processes; Substitution Model
+  - Substitution (Model) Rule
+    - Exercises
+  - Linear Recursion and Iteration
+    - computing factorial using recursion
+    - computing factorial using iteration
+    - Exercises
+  - [Tree Recursion](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#tree-recursion)
 
 ### Lecture `1A`: Overview and Introduction to Lisp
 
@@ -381,7 +394,48 @@ Expressions for:
 
 #### [Tree Recursion](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.2.2)
 
+##### Exercises
 
+> - A function *f* is defined by the rule that `f(n) = n` if `n < 3` and `f(n) = f(n-1) + 2f(n-2) + 3f(n-3)` if `n >= 3`. Write a procedure that computes *f* by means of a recursive process. Write a procedure that computes *f* by means of an iterative process
+
+```cpp
+#include <iostream>
+
+// recursive process
+int f(int n){
+    if (n < 3){
+        return n;
+    } else {
+        return f(n - 1) + 2 * f(n - 2) + 3 * f(n - 3)
+    }
+}
+```
+
+> - The following pattern of numbers is called *Pascal's triangle*
+>
+>   ```
+>   		1
+>   	1		1
+>   1		2		1
+>   ```
+>
+>   The numbers at the edge of the triangle are all `1`, and each number inside the triangle is the sum of two numbers above it. Write a procedure that computes elements of Pascal's triangle by means of a recursive process.
+
+[code in action](ps/pascals_triangle.cpp)
+
+> - Prove that `Fib(n)` is the closest integer to ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-11.gif)*n*/![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-13.gif)5, where  ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-11.gif) =  (1 + ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-13.gif)5)/2.  Hint: Let ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-12.gif) =  (1 - ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-13.gif)5)/2.  Use induction and the definition of the Fibonacci numbers (see section [1.2.2](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.2)) to prove that  *Fib*(*n*) = (![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-11.gif)*n* - ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-12.gif)*n*)/![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-13.gif)5.
+
+![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5En%20-%20%5Cpsi%5En%20%7D%7B%5Csqrt%205%7D)
+
+Base Case:
+
+![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%280%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E0%20-%20%5Cpsi%5E0%20%7D%7B%5Csqrt%205%7D%20%3D%200)
+
+Inductive Step (Proving `fib(n+1)` is the below proposition):
+
+![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%20&plus;%201%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn&plus;1%7D%20-%20%5Cpsi%5E%7Bn&plus;1%7D%20%7D%7B%5Csqrt%205%7D)
+
+we can say that `fib(n + 1) = fib(n) + f(n - 1)`
 
 
 
