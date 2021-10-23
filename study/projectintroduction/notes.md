@@ -1,17 +1,18 @@
 ### Table Of Content
 
-- Lecture `1A`: Overview and Introduction to Lisp
-  - The Elements of Programming
-  - Square Root of `X`
-  - Exercises
-- Lecture `1B`: Procedures and Processes; Substitution Model
-  - Substitution (Model) Rule
-    - Exercises
-  - Linear Recursion and Iteration
-    - computing factorial using recursion
-    - computing factorial using iteration
-    - Exercises
+- [Lecture `1A`: Overview and Introduction to Lisp](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#lecture-1a-overview-and-introduction-to-lisp)
+  - [The Elements of Programming](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#lecture-1a-overview-and-introduction-to-lisp)
+  - [Square Root of `X`](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#square-root-of-x)
+  - [Exercises](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#exercises)
+- [Lecture `1B`: Procedures and Processes; Substitution Model](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#lecture-1b-procedures-and-processes-substitution-model)
+  - [Substitution (Model) Rule](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#substitution-model-rule)
+    - [Exercises](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#exercises-1)
+  - [Linear Recursion and Iteration](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#linear-recursion-and-iteration)
+    - [computing factorial using recursion](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#computing-factorial-using-recursion)
+    - [computing factorial using iteration](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#computing-factorial-using-iteration)
+    - [Exercises](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#exercises-2)
   - [Tree Recursion](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#tree-recursion)
+    - [Exercises](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/notes.md#exercises-2)
 
 ### Lecture `1A`: Overview and Introduction to Lisp
 
@@ -425,17 +426,35 @@ int f(int n){
 
 > - Prove that `Fib(n)` is the closest integer to ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-11.gif)*n*/![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-13.gif)5, where  ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-11.gif) =  (1 + ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-13.gif)5)/2.  Hint: Let ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-12.gif) =  (1 - ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-13.gif)5)/2.  Use induction and the definition of the Fibonacci numbers (see section [1.2.2](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.2)) to prove that  *Fib*(*n*) = (![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-11.gif)*n* - ![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-12.gif)*n*)/![img](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-G-D-13.gif)5.
 
-![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5En%20-%20%5Cpsi%5En%20%7D%7B%5Csqrt%205%7D)
+We can say that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Ctextup%7Bfib%28n%20-%201%29%7D%20&plus;%20%5Ctextup%7Bfib%28n%20-%202%29%7D),
 
-Base Case:
+<p align="center">
+	<img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Ctextup%7Bfib%28n%20-%201%29%7D%20&plus;%20%5Ctextup%7Bfib%28n%20-%202%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D"></img>
+</p>
 
-![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%280%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E0%20-%20%5Cpsi%5E0%20%7D%7B%5Csqrt%205%7D%20%3D%200)
+![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Ctextup%7Bfib%28n%20-%201%29%7D%20&plus;%20%5Ctextup%7Bfib%28n%20-%202%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D)
 
-Inductive Step (Proving `fib(n+1)` is the below proposition):
+![](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%7D%7B%5Csqrt%205%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D)
 
-![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%20&plus;%201%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn&plus;1%7D%20-%20%5Cpsi%5E%7Bn&plus;1%7D%20%7D%7B%5Csqrt%205%7D)
+![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20&plus;%20%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D)
 
-we can say that `fib(n + 1) = fib(n) + f(n - 1)`
+![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%28%5Cfrac%7B%5Cphi%5E%7Bn%7D%7D%7B%5Cphi%7D%20-%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Cpsi%7D%29%20&plus;%20%28%5Cfrac%7B%5Cphi%5E%7Bn%20%7D%7D%7B%5Cphi%5E2%7D%20-%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Cpsi%5E2%7D%29)
+
+![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%28%5Cfrac%7B1%7D%7B%5Cphi%7D%20&plus;%20%5Cfrac%7B1%7D%7B%5Cphi%5E2%7D%29%20-%20%5Cpsi%5E2%20%28%5Cfrac%7B1%7D%7B%5Cpsi%7D%20&plus;%20%5Cfrac%7B1%7D%7B%5Cpsi%5E2%7D%29)
+
+It is given that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Cphi%20%3D%20%5Cfrac%7B1%20&plus;%20%5Csqrt5%7D%7B2%7D%3B%20%5Cpsi%3D%5Cfrac%7B1%20-%20%5Csqrt5%7D%7B2%7D),
+
+![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%28%5Cfrac%7B1%7D%7B%5Cfrac%7B1%20&plus;%20%5Csqrt5%7D%7B2%7D%7D%20&plus;%20%5Cfrac%7B1%7D%7B%28%5Cfrac%7B1%20&plus;%20%5Csqrt5%7D%7B2%7D%29%5E2%7D%29%20-%20%5Cpsi%5E2%20%28%5Cfrac%7B1%7D%7B%5Cfrac%7B1%20-%20%5Csqrt5%7D%7B2%7D%7D%20&plus;%20%5Cfrac%7B1%7D%7B%28%5Cfrac%7B1%20-%20%5Csqrt5%7D%7B2%7D%29%5E2%7D%29)
+
+After some [simplification](https://www.wolframalpha.com/input/?i=1%2F%281%2Bsqrt%285%29%29%2F2),
+
+![](https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%5En%20-%20%5Cpsi%5En)
+
+We can say that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%7D%7B%5Csqrt%205%7D) is true and [`-1 < \psi < 0` then `-1 < \psi^2 < 1`](https://math.stackexchange.com/questions/2717549/prove-that-operatornamefibn-is-the-closest-integer-to-frac-phin-s),
+
+we can write `fib(n)` as two fractions,
+
+![](https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%7D%7D%7B%5Csqrt5%7D%20-%20%5Cfrac%7B%5Cpsi%5En%7D%7B%5Csqrt%205%7D)
 
 
 
