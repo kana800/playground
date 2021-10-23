@@ -430,17 +430,26 @@ We can say that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Ctextup%7
 
 <p align="center">
 	<img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Ctextup%7Bfib%28n%20-%201%29%7D%20&plus;%20%5Ctextup%7Bfib%28n%20-%202%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D"></img>
+</p>
 
+<p align="center">
 <img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Ctextup%7Bfib%28n%20-%201%29%7D%20&plus;%20%5Ctextup%7Bfib%28n%20-%202%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D"></img>
+</p>
 
+<p align="center">
 <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%7D%7B%5Csqrt%205%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20%7D%7B%5Csqrt%205%7D%20&plus;%20%5Cfrac%7B%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D%20%7D%7B%5Csqrt%205%7D"></img>
+</p>
 
+<p align="center">
 <img src="https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%5E%7Bn%20-%201%7D%20-%20%5Cpsi%5E%7Bn%20-%201%7D%20&plus;%20%5Cphi%5E%7Bn%20-%202%7D%20-%20%5Cpsi%5E%7Bn-2%7D"></img>
+</p>
 
+<p align="center">
 <img src="https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%28%5Cfrac%7B%5Cphi%5E%7Bn%7D%7D%7B%5Cphi%7D%20-%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Cpsi%7D%29%20&plus;%20%28%5Cfrac%7B%5Cphi%5E%7Bn%20%7D%7D%7B%5Cphi%5E2%7D%20-%20%5Cfrac%7B%5Cpsi%5E%7Bn%7D%7D%7B%5Cpsi%5E2%7D%29"></img>
+</p>
 
+<p align="center">
 <img src="https://latex.codecogs.com/png.latex?%5Cphi%5E%7Bn%7D%20-%20%5Cpsi%5E%7Bn%7D%20%3D%20%5Cphi%28%5Cfrac%7B1%7D%7B%5Cphi%7D%20&plus;%20%5Cfrac%7B1%7D%7B%5Cphi%5E2%7D%29%20-%20%5Cpsi%5E2%20%28%5Cfrac%7B1%7D%7B%5Cpsi%7D%20&plus;%20%5Cfrac%7B1%7D%7B%5Cpsi%5E2%7D%29"></img>
-
 </p>
 
 It is given that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Cphi%20%3D%20%5Cfrac%7B1%20&plus;%20%5Csqrt5%7D%7B2%7D%3B%20%5Cpsi%3D%5Cfrac%7B1%20-%20%5Csqrt5%7D%7B2%7D),
@@ -461,7 +470,9 @@ we can write `fib(n)` as two fractions,
 
 <p align="center">
 <img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20%3D%20%5Cfrac%7B%5Cphi%5E%7Bn%7D%7D%7B%5Csqrt5%7D%20-%20%5Cfrac%7B%5Cpsi%5En%7D%7B%5Csqrt%205%7D"></img>
+</p>
 
+<p align="center">
 <img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B%5Cpsi%5E2%7D%7B%5Csqrt5%7D%20%3D%20%5Cfrac%7B%5Cpsi%7D%7B%5Csqrt5%7D"></img>
 
 </p>
