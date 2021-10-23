@@ -55,6 +55,8 @@ After this you should understand about:
 
 <details>
 <summary>Recommended Youtube Videos</summary>
+
 - [Loops in C++](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=14)
 - [Control Flow in C++](https://www.youtube.com/watch?v=a3IZ8WaIFAA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=15)
+
 </details>
