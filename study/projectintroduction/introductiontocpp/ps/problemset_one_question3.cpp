@@ -6,6 +6,7 @@
 #include <iostream>
 #include <list>
 #include <iterator>
+#include <algorithm>
 
 void showlist(std::list <int> tlist){
     std::list <int> :: iterator it;
@@ -19,7 +20,7 @@ void showlist(std::list <int> tlist){
  * calculates the mean of a given list
  * return -> int
 */
-int calculateMean(std::list <int> tlist){
+double calculateMean(std::list <int> tlist){
     double sumofintegers;
     int numberofelements = tlist.size();
 
@@ -29,6 +30,41 @@ int calculateMean(std::list <int> tlist){
     }
     double mean = sumofintegers / numberofelements;
     return mean; 
+}
+
+/*
+ * returns the maximum element of the array
+*/
+int maxelement(std::list <int> tlist){
+    int max = 0;
+    std::list <int> :: iterator it;
+    for (it = tlist.begin(); it != tlist.end(); it++){
+        if (max < *it){
+            max = *it;
+        } 
+    }
+    return max;
+}
+
+/*
+ * returns the minimum element of the list
+*/
+int minelement(std::list <int> tlist){
+    int min = tlist.front();
+    std::list <int> :: iterator it;
+    for (it = tlist.begin(); it != tlist.end(); it++){
+        if (min > *it){
+            min = *it;
+        } 
+    }
+    return min;
+}
+
+/*
+ * return the range of the list
+*/
+int range(std::list<int> tlist){
+    return maxelement(tlist) - minelement(tlist);
 }
 
 int main(int argc, char *argv[]){
@@ -45,5 +81,8 @@ int main(int argc, char *argv[]){
         integerlist.push_back(tempn);
     }
     showlist(integerlist);
-    std::cout << calculateMean(integerlist);
+    std::cout << calculateMean(integerlist) << "\n";
+    std::cout << "Max Element: " << maxelement(integerlist) << "\n";
+    std::cout << "Min Element: " << minelement(integerlist) << "\n";
+    std::cout << "Range: " << range(integerlist) << "\n";
 }

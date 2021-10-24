@@ -33,4 +33,5 @@
 	- Started on `introduction/Problem Set #1`
 - 2021/10/20: Completed lecture `2A`
 	- Completed lecture `2B`
-- 2021/10/21: covered SCIP chapter `1.2.1`
+- 2021/10/21: Covered SCIP chapter `1.2.1`
+- 2021/10/23: Completed `introduction/Problem Set #1`
