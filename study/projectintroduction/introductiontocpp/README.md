@@ -3,8 +3,8 @@
 ### Syllabus
 
 - [x] [Introduction](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#introduction)
-- [x] [Flow of Control](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#introduction)
-- [ ] Functions
+- [x] [Flow of Control](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#flow-of-control)
+- [x] [Functions](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#functions)
 - [ ] Arrays and strings
 - [ ] Pointers
 - [ ] Classes
@@ -27,7 +27,7 @@ After this you should understand about:
 - Variables
 - Getting the input
 
-[MIT Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/MIT6_096IAP11_lec01.pdf) | [notes and deeper dive into code](introduction/notes.md)
+[MIT Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/MIT6_096IAP11_lec01.pdf) | [notes and deeper dive into code](introduction.md)
 
 <details>
 <summary>Recommended Youtube Videos</summary>
@@ -58,5 +58,30 @@ After this you should understand about:
 
 - [Loops in C++](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=14)
 - [Control Flow in C++](https://www.youtube.com/watch?v=a3IZ8WaIFAA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=15)
+
+</details>
+
+#### Functions
+
+After this you should understand about:
+
+- Functions
+	- uses of implementing function
+	- function declaration syntax
+	- function prototyping
+	- function overloading
+	- recursion
+	- scopes
+	- passing args by value
+	- passing args by reference
+	- libraries
+
+[MIT Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/MIT6_096IAP11_lec03.pdf) | [notes and deeper dive into code](functions.md)
+
+<details>
+<summary>Recommended Youtube Videos</summary>
+
+- [Functions in C++](https://www.youtube.com/watch?v=V9zuox47zr0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=9)
+- [Scopes in C](https://www.youtube.com/watch?v=_8-ht2AKyH4)
 
 </details>
