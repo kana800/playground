@@ -458,6 +458,8 @@ we can write `fib(n)` as two fractions,
 
 <p align="center">
 <img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B%5Cpsi%5E2%7D%7B%5Csqrt5%7D%20%3D%20%5Cfrac%7B%5Cpsi%7D%7B%5Csqrt5%7D"></img>
+</p>
+
 if we take the `\phi = (1 - \sqrt 5)/2` and since `\sqrt 5 > 2`,
 
 <p align="center">
@@ -474,6 +476,7 @@ we can say that,
 <p align="center">
 <img src="https://latex.codecogs.com/png.latex?%5Ctextup%7Bfib%28n%29%7D%20-%20%5Cfrac%7B1%7D%7B2%7D%3C%20%5Cfrac%7B%5Cphi%5E2%7D%7B%5Csqrt5%7D%20%3C%20%5Ctextup%7Bfib%28n%29%7D%20&plus;%20%5Cfrac%7B1%7D%7B2%7D"></img>
 </p>
+
 Above statement shows that ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Cfrac%7B%5Cphi%5E2%7D%7B%5Csqrt5%7D) will be closest integer to `fib(n)`.
 
 #### Orders of Growth
