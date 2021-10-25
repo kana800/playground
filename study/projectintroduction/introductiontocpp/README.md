@@ -76,7 +76,7 @@ After this you should understand about:
 	- passing args by reference
 	- libraries
 
-[MIT Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/MIT6_096IAP11_lec03.pdf) | [notes and deeper dive into code](functions.md)
+[MIT Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/MIT6_096IAP11_lec03.pdf) | [notes and deeper dive into code](function.md)
 
 <details>
 <summary>Recommended Youtube Videos</summary>
