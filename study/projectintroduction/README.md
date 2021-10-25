@@ -36,3 +36,6 @@
 - 2021/10/21: Covered SCIP chapter `1.2.1`
 - 2021/10/23: Completed `introduction/Problem Set #1`
 - 2021/10/24: Completed `introductiontoCpp`'s function lecture
+	- Completed `introductiontoCpp`'s array and string lecture
+	- Completed `introductiontoCpp`'s pointer lecture
+	- Started `introductiontoCpp`'s problemset#2
