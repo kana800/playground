@@ -5,8 +5,8 @@
 - [x] [Introduction](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#introduction)
 - [x] [Flow of Control](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#flow-of-control)
 - [x] [Functions](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#functions)
-- [ ] Arrays and strings
-- [ ] Pointers
+- [x] [Arrays and strings](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#functions)
+- [x] [Pointers](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#functions)
 - [ ] Classes
 - [ ] Object-oriented programming
 - [ ] Memory management
@@ -16,6 +16,7 @@
 ### Problem Set
 
 - [x] [Problem Set 1](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/MIT6_096IAP11_assn01.pdf) | [solution](ps/ps1.md)
+- [ ] [Problem Set 2](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/MIT6_096IAP11_assn02.pdf) | [solution](ps/ps2.md)
 
 #### Introduction
 
@@ -85,3 +86,27 @@ After this you should understand about:
 - [Scopes in C](https://www.youtube.com/watch?v=_8-ht2AKyH4)
 
 </details>
+
+#### Arrays and Strings
+
+After this you should understand about:
+
+- Arrays
+	- 
+
+- Strings
+
+<details>
+<summary>Recommended Youtube Videos</summary>
+
+- []
+
+</details>
+
+#### Pointers 
+
+After this you should understand about:
+
+
+
+
