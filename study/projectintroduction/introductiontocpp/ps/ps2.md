@@ -293,8 +293,9 @@ There should `*` symbol in the variable `yPtr`
 
 6.   Array Operations
 
-    > 1. Write a function  `printArray` to print the contents of an integer array with string `", "` between elements 
-
+    
+>1.  Write a function  `printArray` to print the contents of an integer array with string `", "` between elements 
+    
     ```cpp
     void printArray(const int * arr,const int n){
         for (int i = 0; i < n - 1; i++){
