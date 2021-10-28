@@ -218,4 +218,88 @@ There should `*` symbol in the variable `yPtr`
    ```
 
    Compiler would get confused on which function to call.
+   
+   > 5. Write a single **sum** capable of handling an arbitrary number of integers. It should take two arguments, include a loop, and return an integer. (Hint: What data types can you use to represent an arbitrarily large set of integers in two arguments?)
+   
+   ```c++
+   int sum(const int numberlist[], const int length){
+       int sum = 0;
+       for (int i = 0; i < length; i++){
+           sum += numberlist[i];
+       }
+       return sum;
+   }
+   ```
+   
+   > 6. Now rewrite your function from 5 to use recursion instead of a loop. The function signature should not change.
+   
+   ```cpp
+   int sum(const int numberlist[], const int len){
+   	if (len == 0){
+           return 0;
+       }else { 
+       	return numberlist[0] + sum(numberlist + 1, len - 1);
+       }
+   }
+   ```
+   
+5.  Calculating ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Cpi)
 
+    > 1. Define variables to store the x and y coordinates of a particular dart throw. Initialize them to random **doubles** in range `[0, 1]`(simulating one dart throw)
+
+    ``` cpp
+    #include <cstdlib>;
+    
+    #define RAND_MAX 1
+    
+    double x = rand() % RAND_MAX;
+    double y = rand() % RAND_MAX;
+    ```
+
+    > 2. Place your x and y declarations in a loop in simulate multiple dart throws. Assume you have a variable in **n** indicating how many throws to simulate. Maintain a count of how many darts have ended up inside the circle.
+
+    ```cpp
+    #include <cmath>
+    
+    int n = 5; /*number of throws that you need to simulate*/
+    int throwsinsidecircle = 0;
+    for (int i = 0; i < n; i++){
+        double x = rand() % RAND_MAX;
+    	double y = rand() % RAND_MAX;
+        double d = sqrt((x**2) + (y**2));
+        if (d < 1){
+            throwsinsidecircle++;
+        }
+    }
+    ```
+
+    > 3. Now use your loop to build a ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Cpi)-calculating function. The function should take one argument specifying the number of dart throws to run. It should return the decimal value of pi. using the technique outline aboue.
+
+    ```cpp
+    double pi(int n){
+        srand(time(0));
+        int throwsinsidecircle = 0;
+        for (int i = 0; i < n; i++){
+            double x = rand() % RAND_MAX;
+            double y = rand() % RAND_MAX;
+            double d = sqrt((x**2) + (y**2));
+            if (d < 1){
+                throwsinsidecircle++;
+            }
+        }
+        return throwsinsidecircle / (double) n * 4;
+    }
+    ```
+
+6.   Array Operations
+
+    > 1. Write a function  `printArray` to print the contents of an integer array with string `", "` between elements 
+
+    ```cpp
+    void printArray(const int arr*,const int n){
+        for (int i = 0; i < n - 1; i++){
+            std::cout << i << ", ";
+        }
+        std::cout << arr[n - 1];
+    }
+    ```

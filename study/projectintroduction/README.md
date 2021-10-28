@@ -39,3 +39,4 @@
 	- Completed `introductiontoCpp`'s array and string lecture
 	- Completed `introductiontoCpp`'s pointer lecture
 	- Started `introductiontoCpp`'s problemset#2
+- 2021/10/28: `introductiontoCpp`'s problemset#2 question 4,5
