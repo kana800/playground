@@ -273,7 +273,7 @@ There should `*` symbol in the variable `yPtr`
     }
     ```
 
-    > 3. Now use your loop to build a ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Cpi)-calculating function. The function should take one argument specifying the number of dart throws to run. It should return the decimal value of pi. using the technique outline aboue.
+    > 3. Now use your loop to build a ![](https://latex.codecogs.com/png.latex?%5Cinline%20%5Cpi)-calculating function. The function should take one argument specifying the number of dart throws to run. It should return the decimal value of pi. using the technique outline above.
 
     ```cpp
     double pi(int n){
@@ -296,10 +296,36 @@ There should `*` symbol in the variable `yPtr`
     > 1. Write a function  `printArray` to print the contents of an integer array with string `", "` between elements 
 
     ```cpp
-    void printArray(const int arr*,const int n){
+    void printArray(const int * arr,const int n){
         for (int i = 0; i < n - 1; i++){
             std::cout << i << ", ";
         }
         std::cout << arr[n - 1];
     }
+    ```
+    
+    > 2. Write a `reverse` function that takes an integer array and its length as arguments. Your function should reverse the contents of the array, leaving the reversed values in the original array and return nothing.
+    
+    ```c++
+    void reverse(const int * arr, const int n){
+        for(int i = 0; i < n / 2; i++){
+            int lefttemp = arr[i];
+            int rightindex = n - i - 1;
+            // swaping
+            lefttemp = arr[rightindex];
+            arr[rightindex] = lefttemp;
+        }
+    }
+    ```
+    
+    > 3. Assume the existence of two constants `WIDTH` and `LENGTH`. Write a function with the following signature:
+    >
+    >    ```cpp
+    >    void transpose(const int input[][LENGTH], int output[][WIDTH]);
+    >    ```
+    >
+    >    Your function should transpose the `WIDTH x LENGTH` matrix in input, placing the `LENGTH x WIDTH` transposed matrix into `output`
+    
+    ```cpp
+    
     ```
