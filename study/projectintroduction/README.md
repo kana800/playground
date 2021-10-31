@@ -40,3 +40,4 @@
 	- Completed `introductiontoCpp`'s pointer lecture
 	- Started `introductiontoCpp`'s problemset#2
 - 2021/10/28: `introductiontoCpp`'s problemset#2 question 4,5
+- 2021/11/01: finished `introductiontoCpp` problemset#2 
