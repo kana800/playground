@@ -28,8 +28,6 @@ This repository contains my answer/projects for the questions/projects given in 
 
 #### Overview
 
-
-<p align="center">
 | Project Name             | Status                                               |
 | ------------------------ | ---------------------------------------------------- |
 | Beginner                 | ![](https://img.shields.io/badge/-inprogress-yellow) |
@@ -38,7 +36,6 @@ This repository contains my answer/projects for the questions/projects given in 
 | Karan's Project          | ![](https://img.shields.io/badge/-completed-success) |
 | Arduino Project          | ![](https://img.shields.io/badge/-notstarted-red)    |
 | Embedded System Projects | ![](https://img.shields.io/badge/-notstarted-red)    |
-</p>
 
 #### Projects 
 
