@@ -24,8 +24,10 @@ For exercises we will be doing [MIT Problem Sets and Projects](https://ocw.mit.e
 #### Sub-Projects
 
 <details>
-<summary>[Introduction to Cpp](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/introductiontocpp)</summary>
+<summary>Introduction to Cpp</summary>
 
 This is a fast paced introductory course to `C++` programming language. We will be following the [MIT's 6.096 Course](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/index.htm). Note that this course doesnt contain any videos. I will be watching videos from youtube channels like [Cherno](https://www.youtube.com/c/TheChernoProject). For exercises we will be doing projects from `1-Beginner`.
+
+[link](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/introductiontocpp)
 
 </details>
