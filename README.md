@@ -5,14 +5,14 @@
 	:ocean:
   </a>
 
-  <h3 align="center">SIDE PROJECTS</h3>
+  <h3 align="center">PROJECTS</h3>
   <p align="center">
     <br />
-    <a href="https://github.com/kana800/Side-Projects/projects">View Progress</a>
+    <a href="https://github.com/kana800/myProjects/projects">View Progress</a>
     ·
-    <a href="https://github.com/kana800/Side-Projects/issues">Report Bug</a>
+    <a href="https://github.com/kana800/myProjects/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kana800/Side-Projects/issues">Request Feature</a>
+    <a href="https://github.com/kana800/myProjects/issues">Request Feature</a>
   </p>
 </p>
 
@@ -50,7 +50,7 @@ The list below contains projects related to embedded systems.
 #### Misc
 
 - [CodingProblem/Exercises](CodingProblem)
-- [Notes](https://github.com/kana800/selfstudy/blob/main/_notes/README.md)
+- [Notes](study)
 
 ---
 <details>
