@@ -323,7 +323,7 @@ There should `*` symbol in the variable `yPtr`
    >    ```void transpose(const int input[][LENGTH], int output[][WIDTH]);```
    >
    >    Your function should transpose the `WIDTH x LENGTH` matrix in input, placing the `LENGTH x WIDTH` transposed matrix into `output`
-   
+
    ```cpp
    void transpose(const int input[][LENGTH], int output[][WIDTH]){
        for(int i = 0; i < WIDTH, i++){
@@ -333,13 +333,13 @@ There should `*` symbol in the variable `yPtr`
        }
    }
    ```
-   
+
    > 4. What would happen if, instead of having `output` be an *out argument*, we simply declared a new array within `transponse` and returned that array?
-   
+
    If we make array inside the function (local variable for the function `transpose`), the array will be removed from the *memory* after the function is executed from the stack. we can make an array in the heap and return that pointer.
-   
+
    > 5. Rewrite your function from part 2 to use pointer-offset notation instead of array-subscript notation
-   
+
    ```cpp
    void reverse(const int * arr, const int n){
        for (int i = 0; i < n / 2; i++){
@@ -351,107 +351,107 @@ There should `*` symbol in the variable `yPtr`
        }
    }
    ```
-   
-7.   Pointers and Strings
 
-    > 1. Write a function that returns the length of a string (`char *`), excluding the final `NULL` character. It should not use any standard library functions. You may use arithmetic and dereference operators, but no indexing operators (`[]`).
+   7. Pointers and Strings
 
-    ```cpp
-    int length(const char * string){
-        int len = 0;
-        const char * strpointer = string;
-        while ((*strpointer) != '\0'){
-            strpointer += len;
-            len++;
-        }
-        return len;
-    }
-    ```
+   > 1. Write a function that returns the length of a string (`char *`), excluding the final `NULL` character. It should not use any standard library functions. You may use arithmetic and dereference operators, but no indexing operators (`[]`).
 
-    > 2. Write a function that swaps two integer values using call by reference.
+   ```cpp
+   int length(const char * string){
+       int len = 0;
+       const char * strpointer = string;
+       while ((*strpointer) != '\0'){
+           strpointer += len;
+           len++;
+       }
+       return len;
+   }
+   ```
 
-    ```cpp
-    void swap(int &a, int  &b){
-        int temp = a;
-        b = a;
-        a = temp;
-        return;
-    }
-    ```
+   > 2. Write a function that swaps two integer values using call by reference.
 
-    > 3. Rewrite your function from part 2 to use pointers instead of references.
+   ```cpp
+   void swap(int &a, int  &b){
+       int temp = a;
+       b = a;
+       a = temp;
+       return;
+   }
+   ```
 
-    ```cpp
-    void swap(int *a, int *b){
-        int temp = *a;
-        *b = *a;
-        *a = temp;
-        return;
-    }
-    ```
+   > 3. Rewrite your function from part 2 to use pointers instead of references.
 
-    > 4. Write a function similar to the once in part 3, but instead of swapping two values, it swaps two pointer to point to each other's values.
+   ```cpp
+   void swap(int *a, int *b){
+       int temp = *a;
+       *b = *a;
+       *a = temp;
+       return;
+   }
+   ```
 
-    ```cpp
-    void swap(int ** a, int ** b){
-        int * temp = *a;
-        *b = *a;
-        *a = temp;
-    }
-    ```
+   > 4. Write a function similar to the once in part 3, but instead of swapping two values, it swaps two pointer to point to each other's values.
 
-    > 5. Assume that the following variable declaration has been already been made:
-    >
-    >    ```cpp
-    >    char *oddOrEven = "Never odd or even";
-    >    ```
-    >
-    >    Write a single statement to accomplish each of the following tasks (assuming for each one that the previous ones have already been run). Make sure you understand what happens in each of them
+   ```cpp
+   void swap(int ** a, int ** b){
+       int * temp = *a;
+       *b = *a;
+       *a = temp;
+   }
+   ```
 
-    > Create a pointer to a `char` value named `nthCharPtr` pointing to the 6th character of `oddOrEven`. Use the indexing operator;
+   > 5. Assume that the following variable declaration has been already been made:
+   >
+   >    ```cpp
+   >    char *oddOrEven = "Never odd or even";
+   >    ```
+   >
+   >    Write a single statement to accomplish each of the following tasks (assuming for each one that the previous ones have already been run). Make sure you understand what happens in each of them
 
-    ```cpp
-    char * nthCharPtr = oddOrEven[6];
-    ```
+   > Create a pointer to a `char` value named `nthCharPtr` pointing to the 6th character of `oddOrEven`. Use the indexing operator;
 
-    > Using pointer arithmetic, update `nthCharPtr` to point to the 4th character in `oddOrEven`
+   ```cpp
+   char * nthCharPtr = oddOrEven[6];
+   ```
 
-    ``` cpp
-    nthCharPtr -= 2;
-    ```
+   > Using pointer arithmetic, update `nthCharPtr` to point to the 4th character in `oddOrEven`
 
-    > Print the value of the currently pointed to by `nthCharPtr`
+   ``` cpp
+   nthCharPtr -= 2;
+   ```
 
-    ```cpp
-    std::cout << *nthCharPtr << std::endl;
-    ```
+   > Print the value of the currently pointed to by `nthCharPtr`
 
-    > Create a new pointer to pointer named `pointerPtr` that points to the `nthCharPtr`
+   ```cpp
+   std::cout << *nthCharPtr << std::endl;
+   ```
 
-    ```cpp
-    char ** pointerPtr = &nthCharPtr;
-    ```
+   > Create a new pointer to pointer named `pointerPtr` that points to the `nthCharPtr`
 
-    > Print the value stored in `pointerPtr`
+   ```cpp
+   char ** pointerPtr = &nthCharPtr;
+   ```
 
-    ```cpp
-    std::cout << pointerPtr;
-    ```
+   > Print the value stored in `pointerPtr`
 
-    > Using `pointerPtr`, print the value pointed to by `nthCharPtr`
+   ```cpp
+   std::cout << pointerPtr;
+   ```
 
-    ```cpp
-    std::cout << **pointerPtr;
-    ```
+   > Using `pointerPtr`, print the value pointed to by `nthCharPtr`
 
-    > Update the `nthCharPtr` to point to the next character in `oddOrEven`
+   ```cpp
+   std::cout << **pointerPtr;
+   ```
 
-    ```cpp
-    nthCharPtr++;
-    ```
+   > Update the `nthCharPtr` to point to the next character in `oddOrEven`
 
-    > Using pointer arithmetic, print out how far away from the character currently pointer by the `nthCharPtr` is from th start of the string.
+   ```cpp
+   nthCharPtr++;
+   ```
 
-    ```cpp
-    std::cout << nthCharPtr - oddOrEven;
-    ```
+   > Using pointer arithmetic, print out how far away from the character currently pointer by the `nthCharPtr` is from th start of the string.
+
+   ```cpp
+   std::cout << nthCharPtr - oddOrEven;
+   ```
