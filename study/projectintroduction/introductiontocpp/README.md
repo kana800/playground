@@ -91,22 +91,21 @@ After this you should understand about:
 
 After this you should understand about:
 
-- Arrays
-	- 
-
-- Strings
-
-<details>
-<summary>Recommended Youtube Videos</summary>
-
-- []
-
-</details>
+- Basic Functionality of Arrays
+- Basic Functionality of Strings
 
 #### Pointers 
 
 After this you should understand about:
 
+- Basic Functionality of Pointers and References
 
+<details>
+<summary>Recommended Youtube Videos</summary>
 
+</details>
+
+#### Classes
+
+After this you should understand about:
 

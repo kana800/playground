@@ -26,6 +26,18 @@ This repository contains my answer/projects for the questions/projects given in 
 
 ---
 
+#### Overview
+
+| Project Name             | Status                                               |
+| ------------------------ | ---------------------------------------------------- |
+| Beginner                 | ![](https://img.shields.io/badge/-inprogress-yellow) |
+| Intermediate             | ![](https://img.shields.io/badge/-notstarted-red)    |
+| Advanced                 | ![](https://img.shields.io/badge/-notstarted-red)    |
+| Karan's Project          | ![](https://img.shields.io/badge/-completed-success) |
+| Arduino Project          | ![](https://img.shields.io/badge/-notstarted-red)    |
+| Embedded System Projects | ![](https://img.shields.io/badge/-notstarted-red)    |
+
+
 #### Projects 
 
 The list below contains all the projects from [florinpop17's](https://github.com/florinpop17/app-ideas) repo.
