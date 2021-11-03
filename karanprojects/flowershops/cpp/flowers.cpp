@@ -31,9 +31,9 @@ class Bouquet{
                 return lhs.price < rhs.price;
             }
         };
-        std::string bouquetname;
         std::map< Flower,int, classcompare > flower;
     public:
+        std::string bouquetname;
         double price = 0;
         Bouquet(std::string a_bouquetname){
             bouquetname = a_bouquetname;
@@ -80,27 +80,49 @@ class Shop{
         double income = 0;
     public:
         /*returns the inventory of the bouquet.
-         *returns -1 if there is none
+         *returns 0 if there is none
          */
         int bouquetInventory(std::string a_bouquetname){
-            if (inventory.count(a_bouquetname) < 0){
-                return -1;
-            }else{
-                return inventory.find(a_bouquetname)->second;
+            for (auto it = inventory.cbegin(); it != inventory.cend(); it++){
+                if (it->first.bouquetname == a_bouquetname){
+                    return it->second;
+                }
             }
+            return 0;
         }
+        
 
         double bouquetPrice(std::string a_bouquetname){
-            if (inventory.count(a_bouquetname) < 0){
-                return -1;
-            }else{
-                return inventory.find(a_bouquetname)->first.price;
+            for (auto it = inventory.cbegin(); it != inventory.cend(); it++){
+                if (it->first.bouquetname == a_bouquetname){
+                    return it->first.price;
+                }
             }
+            return -1;
         }
 
         /*adds bouquets to the inventory*/
         void addBouquet(Bouquet b, int quantity){
             inventory[b] = quantity;
+        }
+
+        /*prints the current inventory*/
+        void printInventory(){
+            for (auto it = inventory.cbegin(); it != inventory.cend(); it++){
+                std::cout << it->first.bouquetname << " " << it->second << "\n";
+            }
+        }
+
+        /*updates the inventory*/
+        void updateInventory(std::string a_bouquetname, int a_quantity){
+            for (auto it = inventory.begin(); it != inventory.end(); it++){
+                if (it->first.bouquetname == a_bouquetname){
+                    it->second -= a_quantity;
+                    income = it->first.price * a_quantity;
+                    break;
+                }
+            }
+            return;
         }
 
         void sellItem(std::string a_bouquetname, int a_quantity){
@@ -115,8 +137,7 @@ class Shop{
                     std::cout << "Only " << currentquantity << " in stock" << "\n";
                     return;
                 }
-                inventory[inventory.find(a_bouquetname)->first] = currentquantity - a_quantity;
-                income += bouquetPrice(a_bouquetname) * a_quantity;
+                updateInventory(a_bouquetname, a_quantity);
             }
         }
 
@@ -150,8 +171,9 @@ int main(int argc, char *argv[]){
 
     Shop flowerhub("flowerhub");
     flowerhub.addBouquet(justfriends, 5);
-    flowerhub.sellItem("justfriends", 4);
-    std::cout << flowerhub.bouquetPrice("justfriends");
+    flowerhub.addBouquet(justmarried, 15);
+    flowerhub.sellItem("justfriends", 5);
+    flowerhub.printInventory();
     std::cout << flowerhub.getIncome();
     return 0;
 }

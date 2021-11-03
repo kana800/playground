@@ -1,0 +1,1 @@
+The code in the `cpp` and `python` files are used to practice the concepts of objected oriented and classes. The code might containsbugs and memory leaks. If you find any please raise and issue :smile:
