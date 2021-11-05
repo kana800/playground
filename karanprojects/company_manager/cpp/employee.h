@@ -6,9 +6,6 @@
  * employee
 */
 
-#include <iostream>
-#include <string>
-
 class Employee{
 
     private:
@@ -45,6 +42,10 @@ class Employee{
 
         void setPay(int a_pay){
             pay = a_pay;
+        }
+
+        int getPay(){
+            return pay;
         }
 };
 
