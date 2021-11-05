@@ -1,7 +1,7 @@
 <br />
 <p style="text-align: center" align="center">
   <a href="https://github.com/kana800/myProjects">
-	:flower:
+	:sunflower:
   </a>
   <h3 align="center">Flower Shop</h3>
   <p align="center">
