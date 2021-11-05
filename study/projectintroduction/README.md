@@ -41,3 +41,5 @@
 	- Started `introductiontoCpp`'s problemset#2
 - 2021/10/28: `introductiontoCpp`'s problemset#2 question 4,5
 - 2021/11/01: finished `introductiontoCpp` problemset#2 
+- 2021/11/04: started `cpp` classes exercises
+	- Completed upto virtual functions in the `introductiontoCpp`'s course 
