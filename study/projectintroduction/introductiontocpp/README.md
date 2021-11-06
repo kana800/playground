@@ -7,8 +7,8 @@
 - [x] [Functions](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#functions)
 - [x] [Arrays and strings](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#functions)
 - [x] [Pointers](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#functions)
-- [ ] Classes
-- [ ] Object-oriented programming
+- [x] Classes
+- [x] Object-oriented programming
 - [ ] Memory management
 - [ ] Advanced topics part 1
 - [ ] Advanced topics part 2
@@ -100,12 +100,23 @@ After this you should understand about:
 
 - Basic Functionality of Pointers and References
 
-<details>
-<summary>Recommended Youtube Videos</summary>
-
-</details>
-
 #### Classes
 
 After this you should understand about:
 
+- class defintion syntax
+- class vs structs
+- static for classes and structs
+
+#### OOP
+
+After this you should understand about:
+
+- constructors
+- destructors
+- inheritance
+- virtual functions
+- visibility
+	- private
+	- protected
+	- public
