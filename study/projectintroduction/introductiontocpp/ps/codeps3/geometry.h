@@ -32,8 +32,8 @@ class PointArray{
         void remove(const int pos);
         const int getSize() const;
         void clear();
-        Point get(const int position);
-        const Point get(const int position) const;
+        Point * get(const int position);
+        const Point * get(const int position) const;
 };
 
 #endif //GEOMETRY_H

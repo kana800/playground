@@ -70,13 +70,48 @@ void PointArray::insert(const int position, const Point &p){
     // increasing the size of the pointer by 1
     resize(size  + 1);
     // shifting the points from the given position to the right
-    for (int i = position; i < size - 1; ++i){
-        Point top = points[i + 1];
-        // TODO
-        points[i];
+    for (int i = size - 1; i > position; i--) {
+      points[i] = points[i - 1];
     }
+    // allocating the point p to the position
+    points[position] = p;
 }
 
 void PointArray::push_back(const Point &p){
-    points[size] = p;
+    insert(size, p);
+}
+
+void PointArray::remove(const int pos){
+    // checking if the given pos is in range
+    if ((pos < size) && (pos <= 0)){
+            // shift to the left
+            for (int i = pos; i < size - 2; i++){
+                points[i] = points[i + 1];
+            }
+        // resizing the point array
+        resize(size - 1);
+    }
+}
+
+void PointArray::clear(){
+    resize(0);
+}
+
+Point * PointArray::get(const int position){
+    // checking if position in range
+    if ((position < size) && (position <= 0)){
+        return &points[position];
+    }else{
+        return nullptr;
+    }
+}
+
+
+const Point * PointArray::get(const int position) const {
+    // checking if position in range
+    if ((position < size) && (position <= 0)){
+        return points + position;
+    }else{
+        return nullptr;
+    }
 }

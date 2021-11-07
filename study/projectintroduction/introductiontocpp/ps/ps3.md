@@ -133,4 +133,12 @@
 
    [geometry.cpp](codeps3/geometry.cpp)
 
-   
+   > 5. Why do we need `const` and non-`const` version of `get`?
+
+   The non-`const` version of the `get` can be used for a `PointArray` object and `const` version of the `get` can be used for `const PointArray` object. `const` version of the get returns only a read only version of the pointer. 
+
+5. Polygon
+
+   [polygon.h](codeps3/polygon.h)
+
+   [polygon.cpp](codeps3/polygon.cpp)
