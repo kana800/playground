@@ -1,11 +1,5 @@
 > start date: 2021/10/09
 
-### Syllabus
-
-> The below lessons/courses will be covered in the month of october.
-
-![](.images/schedule.png)
-
 ### Main Course
 
 - [Structure and intepretation of computer programs](https://teachyourselfcs.com/#programming) | [Main](main.md) | [MIT Videos](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
@@ -45,3 +39,4 @@
 	- Completed upto virtual functions in the `introductiontoCpp`'s course 
 - 2021/11/06: started `introductiontoCpp` problemset#3 question 2,3
 - 2021/11/07: finished `introductiontoCpp` problemset#3 question 4,5 
+- 2021/11/08: completed `introductiontoCpp` problemset#3
