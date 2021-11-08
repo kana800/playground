@@ -17,6 +17,7 @@
 
 - [x] [Problem Set 1](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/MIT6_096IAP11_assn01.pdf) | [solution](ps/ps1.md)
 - [x] [Problem Set 2](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/MIT6_096IAP11_assn02.pdf) | [solution](ps/ps2.md)
+- [x] [Problem Set 3]() | [solution](ps/ps3.md)
 
 #### Introduction
 
@@ -94,11 +95,15 @@ After this you should understand about:
 - Basic Functionality of Arrays
 - Basic Functionality of Strings
 
+[MIT Notes]()
+
 #### Pointers 
 
 After this you should understand about:
 
 - Basic Functionality of Pointers and References
+
+[MIT Notes]()
 
 #### Classes
 
@@ -107,6 +112,8 @@ After this you should understand about:
 - class defintion syntax
 - class vs structs
 - static for classes and structs
+
+[MIT Notes]()
 
 #### OOP
 
@@ -120,3 +127,5 @@ After this you should understand about:
 	- private
 	- protected
 	- public
+
+[MIT Notes]()

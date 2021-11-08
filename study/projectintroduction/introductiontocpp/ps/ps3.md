@@ -137,8 +137,44 @@
 
    The non-`const` version of the `get` can be used for a `PointArray` object and `const` version of the `get` can be used for `const PointArray` object. `const` version of the get returns only a read only version of the pointer. 
 
-5. Polygon
+5. `Polygon`
 
    [polygon.h](codeps3/polygon.h)
 
    [polygon.cpp](codeps3/polygon.cpp)
+   
+6. `Triangle`
+
+   [polygon.h](codeps3/polygon.h)
+
+   [polygon.cpp](codeps3/polygon.cpp)
+
+   > In the `Point` class, what would happen if the constructors were private?
+
+   If the constructors were private we wont be able to instantiate a class with a `Point(x,y)`.s
+
+   > Describe what happens to the fields of the `Polygon` object when the object is destroyed.
+
+   The count of the polygons will decrement by one.
+
+   > Why did we need to make the fields of `Polygon` protected?
+
+   Let `Rectangle` and `Traingle` classes access the fields and not the other code.
+
+   > Assume you are writing a function that takes as an argument a `Polygon *` called `polyPtr`
+   >
+   > Imagine that we had overridden `getNumSides` in each of `Rectangle` and `Triangle`. Which version of the function would be called if we wrote `polyPtr->getNumSides()`? Why?
+
+   `getNumSides` isn't a virtual, `Polygon`'s `getNumSides()` will be called.
+
+7. check `polygon.cpp` for answers
+
+> Write a program the converts english into piglatin
+
+[piglatin.cpp](codeps3/piglatin.cpp)
+
+
+
+
+
+   
