@@ -2,8 +2,8 @@
 
 ### TableOfContent
 
-- [projectintroduction](https://github.com/kana800/myProjects/tree/master/study#projectintroduction)
-	- [Introduction to `C++`](https://github.com/kana800/myProjects/tree/master/study#sub-projects)
+- [projectintroduction](https://github.com/kana800/myProjects/tree/master/study#projectintroduction) | [quickaccess](https://github.com/kana800/myProjects/blob/master/study/projectintroduction)
+	- [Introduction to `C++`](https://github.com/kana800/myProjects/tree/master/study#sub-projects) | [quickaccess](https://github.com/kana800/myProjects/blob/master/study/projectintroduction/introductiontocpp)
 
 ---
 
