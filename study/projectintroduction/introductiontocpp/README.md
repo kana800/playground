@@ -9,7 +9,7 @@
 - [x] [Pointers](https://github.com/kana800/myProjects/tree/master/study/projectintroduction/introductiontocpp#functions)
 - [x] Classes
 - [x] Object-oriented programming
-- [ ] Memory management
+- [x] Memory management
 - [ ] Advanced topics part 1
 - [ ] Advanced topics part 2
 
