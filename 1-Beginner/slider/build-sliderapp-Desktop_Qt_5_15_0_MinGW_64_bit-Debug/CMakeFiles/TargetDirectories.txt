@@ -1,0 +1,5 @@
+C:/Users/Nimesh/Studies/myProjects/1-Beginner/slider/build-sliderapp-Desktop_Qt_5_15_0_MinGW_64_bit-Debug/CMakeFiles/sliderapp.dir
+C:/Users/Nimesh/Studies/myProjects/1-Beginner/slider/build-sliderapp-Desktop_Qt_5_15_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Nimesh/Studies/myProjects/1-Beginner/slider/build-sliderapp-Desktop_Qt_5_15_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Nimesh/Studies/myProjects/1-Beginner/slider/build-sliderapp-Desktop_Qt_5_15_0_MinGW_64_bit-Debug/CMakeFiles/sliderapp_autogen_timestamp_deps.dir
+C:/Users/Nimesh/Studies/myProjects/1-Beginner/slider/build-sliderapp-Desktop_Qt_5_15_0_MinGW_64_bit-Debug/CMakeFiles/sliderapp_autogen.dir

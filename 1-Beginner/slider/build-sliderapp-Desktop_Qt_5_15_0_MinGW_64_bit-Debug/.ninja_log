@@ -1,0 +1,15 @@
+# ninja log v5
+1	660	6587248081521124	sliderapp_autogen/timestamp	398ccec99856c9a
+1	660	6587248081521124	sliderapp_autogen/mocs_compilation.cpp	398ccec99856c9a
+1	660	6587248081521124	C:/Users/Nimesh/Studies/myProjects/1-Beginner/slider/build-sliderapp-Desktop_Qt_5_15_0_MinGW_64_bit-Debug/sliderapp_autogen/timestamp	398ccec99856c9a
+1	660	6587248081521124	C:/Users/Nimesh/Studies/myProjects/1-Beginner/slider/build-sliderapp-Desktop_Qt_5_15_0_MinGW_64_bit-Debug/sliderapp_autogen/mocs_compilation.cpp	398ccec99856c9a
+661	2305	6587248099102638	CMakeFiles/sliderapp.dir/sliderapp_autogen/mocs_compilation.cpp.obj	85654ef4c37fc684
+669	2434	6587248100388802	CMakeFiles/sliderapp.dir/widget.cpp.obj	32b5876a61d2d01
+664	2502	6587248101076965	CMakeFiles/sliderapp.dir/main.cpp.obj	d1d1e130b5760268
+2502	2695	6587248102970508	sliderapp.exe	4f65ffbace5b43fb
+16	327	6589830642409740	sliderapp_autogen/timestamp	398ccec99856c9a
+16	327	6589830642409740	sliderapp_autogen/mocs_compilation.cpp	398ccec99856c9a
+16	327	6589830642409740	C:/Users/Nimesh/Studies/myProjects/1-Beginner/slider/build-sliderapp-Desktop_Qt_5_15_0_MinGW_64_bit-Debug/sliderapp_autogen/timestamp	398ccec99856c9a
+16	327	6589830642409740	C:/Users/Nimesh/Studies/myProjects/1-Beginner/slider/build-sliderapp-Desktop_Qt_5_15_0_MinGW_64_bit-Debug/sliderapp_autogen/mocs_compilation.cpp	398ccec99856c9a
+334	1893	6589830658203592	CMakeFiles/sliderapp.dir/widget.cpp.obj	32b5876a61d2d01
+1893	2377	6589830662975465	sliderapp.exe	4f65ffbace5b43fb

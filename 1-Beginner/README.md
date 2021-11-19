@@ -45,3 +45,4 @@
 - `2021-10-10` (60 mins): Completed the `wind chill` project's `desktopgui` version.
 - `2021-10-17` (60 mins): Completed the `lorem ipsum generator` project.
 - `2021-11-16` (30 mins): Added the Base version `slider app` `desktopgui` version.
+- `2021-11-19` (15 mins): Completed the Userinterface in the `slider app` `desktop gui` version
