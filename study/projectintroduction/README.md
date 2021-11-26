@@ -41,3 +41,4 @@
 - 2021/11/07: finished `introductiontoCpp` problemset#3 question 4,5 
 - 2021/11/08: completed `introductiontoCpp` problemset#3
 - 2021/11/16: completed `introductiontoCpp` memorymanagement chapter
+- 2021/11/19: watched cherno's `46`,`47` & `48` video in the cpp series
