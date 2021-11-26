@@ -30,20 +30,14 @@ This repository contains my answer/projects for the questions/projects given in 
 
 | Project Name             | Status                                               |
 | ------------------------ | ---------------------------------------------------- |
-| Beginner                 | ![](https://img.shields.io/badge/-inprogress-yellow) |
-| Intermediate             | ![](https://img.shields.io/badge/-notstarted-red)    |
-| Advanced                 | ![](https://img.shields.io/badge/-notstarted-red)    |
+| Beginner                 | ![](https://img.shields.io/badge/-completed-success) |
 | Karan's Project          | ![](https://img.shields.io/badge/-completed-success) |
-| Arduino Project          | ![](https://img.shields.io/badge/-notstarted-red)    |
-| Embedded System Projects | ![](https://img.shields.io/badge/-notstarted-red)    |
 
 #### Projects 
 
 The list below contains all the projects from [florinpop17's](https://github.com/florinpop17/app-ideas) repo.
 
 - [Beginner](1-Beginner)
-- [Intermediate](2-Intermediate) 
-- [Advanced](3-Advanced)
 
 The list below contains folder for the [karan's project](https://github.com/karan/Projects/).
 
@@ -53,10 +47,6 @@ The list below contains projects from [project based tutorial in C](https://gith
 
 - [Project Based on C/C++](projectC)
 
-The list below contains projects related to embedded systems.
-
-- [Arduino Projects](arduino)
-- [Embedded System Projects](embeddedproject)
 
 #### Misc
 
