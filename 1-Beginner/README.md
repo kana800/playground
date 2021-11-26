@@ -17,7 +17,6 @@
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**TrueOrFalse**](trueorfalse)                               | Identify the results of a conditional comparison             |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Lorem Ipsum Generator**](lorem)                           | Generate lorem ipsum placeholder text                        |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Notes App**](notes)                                       | Create an online note pad                                    |
-| ![](https://img.shields.io/badge/-todo-blueviolet)      | [**Pearson Regression**](regr)                               | Calculate the correaltion coefficient for two sets of data   |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Recipe App**](recipe)                                     | Recipe App                                                   |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Wind Chill**](windchill)                                  | Calculate the windchill factor from an actual temperature    |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Weather App**](weatherapp)                                | Get the temperature, weather condition of a city             |
