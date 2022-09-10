@@ -47,13 +47,7 @@ The list below contains projects from [project based tutorial in C](https://gith
 
 - [Project Based on C/C++](projectC)
 
-#### Other
-
-- [Electronics](electronics)
-
 
 #### Misc
 
 - [CodingProblem/Exercises](CodingProblem)
-
----
