@@ -3,7 +3,7 @@
 <p style="text-align: center" align="center">
   <a href="https://github.com/kana800/myProjects">
   </a>
-  <img src="projects.png" alt="logo"> 
+  <img src=".image/projects.png" alt="logo"> 
   <h3 align="center">PROJECTS</h3>
   <p align="center">
     <br />
