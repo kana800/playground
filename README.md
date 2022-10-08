@@ -39,7 +39,7 @@ This repository contains my answer/projects for the questions/projects given in 
     </td>
   </tr>
   <tr>
-    <td>Karana's Project List</td>
+    <td>Karan's Project List</td>
     <td> 
       <img src="https://img.shields.io/badge/-completed-success" alt="logo"> 
     </td>
@@ -60,6 +60,9 @@ The list below contains projects from [project based tutorial in C](https://gith
 
 - [Project Based on C/C++](projectC)
 
+This folder below contains several design patterns I implemented
+
+- [Design Patterns](designpatterns)
 
 #### Misc
 
