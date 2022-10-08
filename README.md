@@ -27,10 +27,24 @@ This repository contains my answer/projects for the questions/projects given in 
 
 #### Overview
 
-| Project Name             | Status                                               |
-| ------------------------ | ---------------------------------------------------- |
-| Beginner                 | ![](https://img.shields.io/badge/-completed-success) |
-| Karan's Project          | ![](https://img.shields.io/badge/-completed-success) |
+<table align="center">
+  <tr>
+    <th>Project Name</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>Beginner</td>
+    <td> 
+      <img src="https://img.shields.io/badge/-completed-success" alt="logo"> 
+    </td>
+  </tr>
+  <tr>
+    <td>Karana's Project List</td>
+    <td> 
+      <img src="https://img.shields.io/badge/-completed-success" alt="logo"> 
+    </td>
+  </tr>
+</table> 
 
 #### Projects 
 
