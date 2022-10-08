@@ -12,8 +12,6 @@
   <img width="460" height="300" src=".images/bin2dec_html.gif"></img>
 </p>
 
-[live preview](https://codepen.io/kana800/pen/PojKeZx)
-
 **Tier:** 1-Beginner
 
 Binary is the number system all digital computers are based on.

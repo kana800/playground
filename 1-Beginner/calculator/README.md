@@ -4,13 +4,11 @@
 ### Demo
 
 
-### JS
+#### JS
 
 <p align="center">
   <img width="470" height="546" src=".images/js.png"></img>
 </p>
-
-[live preview](https://codepen.io/kana800/pen/VwWzqpX)
 
 
 **Tier:** 1-Beginner

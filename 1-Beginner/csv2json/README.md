@@ -1,6 +1,6 @@
-# CSV2JSON
+## CSV2JSON
 
-# Demo
+### Demo
 
 <p align="center">
   <img width="500" height="271" src=".images/demo.png"></img>
@@ -20,7 +20,7 @@ that's already present. In additional to providing a useful function, this
 challenge will also give you practice in modifying existing applications to
 add new functionality.
 
-### Constraints ###
+### Constraints
 
 - Read the user stories below carefully. Some of the functionality created
 for JSON2CSV will need to be modified.

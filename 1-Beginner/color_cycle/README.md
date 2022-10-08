@@ -8,9 +8,6 @@
   <img width="723" height="367" src=".images/js.gif"></img>
 </p>
 
-[live preview](https://codepen.io/kana800/pen/WNOELxq)
-
-
 #### python
 
 <p align="center">

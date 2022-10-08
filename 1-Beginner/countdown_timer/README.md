@@ -1,9 +1,5 @@
 # Countdown Timer
 
-
-[preview](https://codepen.io/kana800/pen/XWKPQab)
-
-
 **Tier:** 1-Beginner
 
 We all have important events we look forward to in life, birthdays,

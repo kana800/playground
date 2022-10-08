@@ -1,6 +1,6 @@
 <h4 style="text-align: center" align="center">Project List :books:</h4>
 
-| status                                                  | Project Title                                                | Description                                                  |
+| Status                                                  | Project Title                                                | Description                                                  |
 | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Binary to Decimal and Back Converter**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/Bin2Dec-App) | Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent. |
 | ![](https://img.shields.io/badge/-completed-ff69b4)     | [**Color Cycle**](https://github.com/kana800/Side-Projects/tree/master/1-Beginner/color_cycle) | Cycle a color value through incremental changes              |
