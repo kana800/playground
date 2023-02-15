@@ -1,25 +1,10 @@
-<!-- PROJECT LOGO -->
-<br />
-<p style="text-align: center" align="center">
-  <a href="https://github.com/kana800/myProjects">
-  </a>
-  <img src=".image/projects.png" alt="logo"> 
-  <h3 align="center">PROJECTS</h3>
-  <p align="center">
-    <br />
-    <a href="https://github.com/kana800/myProjects/projects">View Progress</a>
-    ·
-    <a href="https://github.com/kana800/myProjects/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/kana800/myProjects/issues">Request Feature</a>
-  </p>
-</p>
+### Playground
 
-This repository contains my answer/projects for the questions/projects given in the repositories listed below:
-
+This repository contains my random projects, ideas obtained from different repository; Few them are listed below:
 1. https://github.com/florinpop17/app-ideas
 2. https://github.com/karan/Projects/
 
+This repository will be used a practice ground to *solidify* different concepts that I learn. All notes can be found in my [`garden`](https://github.com/kana800/garden)
 
 <h5 align="center">CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK</h5>
 
