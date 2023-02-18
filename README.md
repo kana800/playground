@@ -51,4 +51,4 @@ This folder below contains several design patterns I implemented
 
 #### Misc
 
-- [CodingProblem/Exercises](CodingProblem)
+- [CodingProblem/Exercises](codingproblem)
