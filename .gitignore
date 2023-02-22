@@ -224,3 +224,5 @@ lerna-debug.log
 Thumbs.db
 
 .vs/
+.vscode/
+*.out
