@@ -6,5 +6,6 @@ void newentrypoint(void){
 
 int main(){
 	printf("hello world\n");
+	newentrypoint();
 	return 0;
 }

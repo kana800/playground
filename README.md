@@ -1,14 +1,14 @@
-### Playground
-
 This repository contains my random projects, ideas obtained from different repository; Few them are listed below:
 1. https://github.com/florinpop17/app-ideas
 2. https://github.com/karan/Projects/
 
-This repository will be used a practice ground to *solidify* different concepts that I learn. All notes can be found in my [`garden`](https://github.com/kana800/garden)
+> This repository will be used a practice ground to *solidify* different concepts that I learn. All notes can be found in my [`garden`](https://github.com/kana800/garden)
 
-<h5 align="center">CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK</h5>
+> CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK
 
 ---
+
+<h3 style="align:center;">Playground</h3>
 
 #### Overview
 

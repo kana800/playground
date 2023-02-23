@@ -1,5 +1,7 @@
 CC=gcc
 FLAGS=-Wall
 
-all:
-	$(CC) -o hello hello.c $(FLAGS)
+static:
+	$(CC) -static -fno-pie -no-pie -g -o hellostatic.out hello.c
+dynamic:
+	$(CC) -fno-pie -no-pie -g -o hellodynamic.out hello.c
