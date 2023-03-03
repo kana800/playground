@@ -1,0 +1,13 @@
+### Exercises for Programming in C++
+
+One of the books recommended by the `uni`; I thought it would be actually funny to atleast try few of the problems; This is my attempt on it; 
+
+All the problems will be either in `.md` files or `.cpp` files; 
+
+### Map-Of-Content
+
+
+---
+
+### References
+- [Exercises for Programming in `C++`](https://www.ece.uvic.ca/~frodo/cppbook/downloads/exercises_for_programming_in_cpp-2021-04-01.pdf?student_id=E195558&course_code=HND-COM%2F22&module_code=UNIT_01)

@@ -4,7 +4,7 @@ This repository contains my random projects, ideas obtained from different repos
 
 > This repository will be used a practice ground to *solidify* different concepts that I learn. All notes can be found in my [`garden`](https://github.com/kana800/garden)
 
-> CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK
+*CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK*
 
 ---
 
