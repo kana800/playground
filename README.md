@@ -4,11 +4,7 @@ This repository contains my random projects, ideas obtained from different repos
 
 > This repository will be used a practice ground to *solidify* different concepts that I learn. All notes can be found in my [`garden`](https://github.com/kana800/garden)
 
-*CODES IN THIS REPOSITORY MIGHT BE BUGGY USE IT AT YOUR OWN RISK*
-
 ---
-
-<h3 style="align:center;">Playground</h3>
 
 #### Overview
 
@@ -52,3 +48,4 @@ This folder below contains several design patterns I implemented
 #### Misc
 
 - [CodingProblem/Exercises](codingproblem)
+- [Books](books)

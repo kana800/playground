@@ -1,6 +1,6 @@
 ### Books
 
-This directory contains exercises from coding books; You can check my notes in 
+This directory contains exercises from coding books; You can check my notes in my [garden](https://kannna.xyz/garden/)
 
 ### Map-Of-Content
 
