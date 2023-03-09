@@ -1,3 +1,0 @@
-[submodule "external/mathlib"]
-	path = external/mathlib
-	url = https://github.com/kana800/mathlib.git
