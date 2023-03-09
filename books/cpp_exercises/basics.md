@@ -1,4 +1,4 @@
-contains exercises from the book [cpp exercises](), This `page` will consist of answer for the `chapter2::Basics` 
+> contains exercises from the book [cpp exercises](https://www.ece.uvic.ca/~frodo/cppbook/downloads/exercises_for_programming_in_cpp-2021-04-01.pdf), This `page` will consist of answer for the `chapter2::Basics` 
 
 ---
 
@@ -71,3 +71,16 @@ Usually the compiler will try to assign letter related to value `-1` using ascii
 - `sizeof(int) == 2 || sizeof(int) == 4`: latter part is true
 
 > 7. Using `typedef`, create a type alias for each of the types listed below
+
+- a pointer to a `char`
+    - `typedef char* cptr;`
+- a pointer to a `const char`
+    - `typedef const char* cnstptr;`
+- a `const` pointer to a `char`
+    - `typedef char*const cpc;`
+- a pointer to a function taking a `float` parameter and returning an `int`
+    - `typedef int (*funcptr)(float) fptr;`
+- a pointer to an array of 16 elements of an array of 8 elements of type `long`
+    - `typedef long somearr[16];`
+- an lvalue reference to an array of 8 `int`s
+    - `typedef int& ref[8];`
