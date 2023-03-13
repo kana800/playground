@@ -4,7 +4,7 @@ One of the books recommended by the `uni`.
 I thought it would be actually funny to atleast try few of the problems. *This is my attempt on it*, You can find more accurate answers in the book itself.<sup>[1]</sup> 
 
 ### Map-Of-Content
-- [Basics](basics.md)
+- [Basics](basics.cpp)
 
 ---
 
