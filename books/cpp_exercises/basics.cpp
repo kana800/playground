@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string.h>
 
+using std::cout;
+
+#define multiply(x, y) x * y
+#define maximum(x,y) x > y ? x : y
+#define factorial(x) ((x) * factorial((x) - 1))
 
 void swap(int &r1, int &r2){
 	/*summary: swap two numbers
@@ -44,5 +49,14 @@ int main(int argc, char* argv[]){
 	int e = 5;
 	swap(d,e);
 	//swap2(d1, e1);
+	//cout << "Hello World\n" << std::endl;	
+	
+	int m = multiply(2, 2);
+	int k = maximum(2, 5);
+	int q = factorial(2);
+
+	cout << "k is " << k << std::endl;
+	cout << "m is " << m << std::endl;
+
 	return 0;
 }
