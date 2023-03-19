@@ -4,5 +4,5 @@
 
 ### Table Of Content
 
-- [Problem 1](answer/problem1.c)
-- [Problem 2](answer/problem2.c)
+- [Problem 1](problem1.c)
+- [Problem 2](problem2.c)

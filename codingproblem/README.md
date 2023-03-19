@@ -2,4 +2,3 @@
 
 - [Daily Coding Problem](dcp)
 - [Project Euler](projecteuler)
-

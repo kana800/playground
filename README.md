@@ -4,8 +4,8 @@
 
 #### Map-Of-Content
 
-- [Beginner](beginner): Contains all the projects from [florinpop17's](https://github.com/florinpop17/app-ideas) repo.
-- [Karan's project list solutions](karanprojects): Contains folder for the [karan's project](https://github.com/karan/Projects/).
+- [Beginner](beginner): Contains all the projects from [florinpop17's](https://github.com/florinpop17/app-ideas) repo. (`archived`)
+- [Karan's project list solutions](karanprojects): Contains folder for the [karan's project](https://github.com/karan/Projects/). (`archived`)
 - [Project Based on C/C++](projectC): Contains projects from [project based tutorial in C](https://github.com/rby90/Project-Based-Tutorials-in-C) repo.
 - [Design Patterns](designpatterns): Contains several design patterns I implemented
 - [CodingProblem/Exercises](codingproblem): Contains coding problems from sites like leetcode 
