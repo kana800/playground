@@ -1,5 +1,4 @@
-> This repository will be used a practice ground to *solidify* different concepts that I learn. All notes can be found in my [`garden`](https://github.com/kana800/garden)
-
+> This repository will be used a practice ground to *solidify* different concepts that I learn. 
 ---
 
 #### Map-Of-Content
